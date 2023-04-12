@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@drawable/background_hd">
+
+
+    <com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+        android:layout_width="@dimen/r_audio_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/margin_bottom_message"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top_message"
+        android:background="@drawable/received_message"
+        android:orientation="vertical"
+        app:frameBgTintColor="@color/received_message_background_color">
+
+
+        <TextView
+            android:id="@+id/tv_username_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="test"
+            android:textColor="@color/blue" />
+
+        <include layout="@layout/item_reply" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingRight="8dp">
+
+
+            <ImageView
+                android:id="@+id/voice_play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_bg_blue"
+                android:padding="6dp"
+                android:tint="@color/colorWhite"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_play_arrow" />
+
+            <com.devlomi.fireapp.views.ProgressWithCancelView
+                android:id="@+id/progress_bar_cancel"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_bg_blue"
+                android:visibility="gone"
+                app:progressBarColor="@color/colorAccent" />
+
+            <ImageButton
+                android:id="@+id/btn_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_bg_blue"
+                android:padding="5dp"
+                android:tint="@color/colorWhite"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_file_download" />
+
+            <com.devlomi.fireapp.views.DevlomiSeekbar
+                android:id="@+id/voice_seekbar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/voice_play_btn"
+                android:progress="0"
+                app:progressColor="@color/blue"
+                app:thumbColor="@color/blue" />
+
+
+            <TextView
+                android:id="@+id/tv_audio_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/voice_seekbar"
+                android:layout_below="@id/voice_seekbar"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/blue"
+                android:textSize="12sp"
+                tools:text="4.0MB" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/ReceivedMessageTimeTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/voice_seekbar"
+                android:layout_below="@id/voice_seekbar"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:text="04:22 PM" />
+
+            <FrameLayout
+                android:id="@+id/profile_image_container"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/voice_seekbar"
+                android:background="@drawable/rounded_corner_orange">
+
+                <ak.sh.ay.musicwave.MusicWave
+                    android:id="@+id/wave_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:colorGradient="false"
+                    app:waveColor="@color/colorWhite"
+                    app:waveThickness="1" />
+
+
+                <ImageView
+                    android:id="@+id/img_headset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:tint="#ffff"
+                    app:srcCompat="@drawable/ic_headset" />
+
+
+                <TextView
+                    android:id="@+id/tv_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="4dp"
+                    android:text="0:00"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="8sp" />
+
+            </FrameLayout>
+        </RelativeLayout>
+    </com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+
+
+</RelativeLayout>
+
+

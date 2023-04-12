@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/collectorLinearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vp_main_layout_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="SpUsage">
+
+    <LinearLayout
+        android:id="@+id/paddedLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding5">
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            android:visibility="visible"
+            app:srcCompat="@drawable/vp_ic_play_arrow_white" />
+
+        <ImageView
+            android:id="@+id/imgDownload"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/vp_vertical_align_bottom" />
+
+        <ProgressBar
+            android:id="@+id/pb_play"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgPause"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/vp_ic_pause_white" />
+
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/containerLinearLayout"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:orientation="vertical">-->
+
+        <RelativeLayout
+            android:id="@+id/containerLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="@dimen/padding135"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingStart="@dimen/padding12"
+                android:paddingEnd="@dimen/padding7" />
+
+            <TextView
+                android:id="@+id/txtAudioFileName"
+                android:layout_width="@dimen/padding135"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="1"
+                android:paddingStart="@dimen/padding8"
+                android:paddingEnd="@dimen/padding8"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/padding10" />
+
+            <com.bytesbee.firebase.chat.activities.views.voiceplayer.PlayerVisualizerSeekbar
+                android:id="@+id/seekBarV"
+                android:layout_width="@dimen/padding135"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/padding8"
+                android:layout_marginRight="@dimen/padding8"
+                android:visibility="gone" />
+        </RelativeLayout>
+        <!--        </LinearLayout>-->
+
+        <include
+            layout="@layout/vp_audio_view_headset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding3"
+            android:layout_marginEnd="@dimen/padding0" />
+
+        <ImageView
+            android:id="@+id/imgShare"
+            android:layout_width="@dimen/padding40"
+            android:layout_height="@dimen/padding40"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:srcCompat="@drawable/vp_ic_share_white" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

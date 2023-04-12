@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@drawable/background_hd">
+
+
+    <com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/margin_bottom_message"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin_top_message"
+        android:background="@drawable/received_message"
+        app:frameBgTintColor="@color/received_message_background_color">
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/tv_username_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:textColor="@color/blue"
+            />
+
+        <include layout="@layout/item_reply" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/voice_play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/circle_bg_blue"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ic_play_arrow"
+                android:tint="@color/colorWhite"
+                android:visibility="invisible" />
+
+            <com.devlomi.fireapp.views.ProgressWithCancelView
+                android:id="@+id/progress_bar_cancel"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/circle_bg_blue"
+                android:visibility="gone"
+                app:progressBarColor="@color/colorAccent" />
+
+            <ImageButton
+                android:id="@+id/btn_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/circle_bg_blue"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_file_download"
+                android:tint="@color/colorWhite"
+                android:visibility="visible" />
+
+            <com.devlomi.fireapp.views.DevlomiSeekbar
+                android:id="@+id/voice_seekbar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/voice_play_btn"
+                android:progress="0"
+                app:progressColor="@color/blue"
+                app:thumbColor="@color/blue" />
+
+            <TextView
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/voice_seekbar"
+                android:layout_below="@id/voice_seekbar"
+                android:layout_marginTop="2dp"
+                android:text="00:00"
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/ReceivedMessageTimeTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/voice_seekbar"
+                android:layout_below="@id/voice_seekbar"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:text="12:20 AM" />
+
+            <FrameLayout
+                android:id="@+id/profile_image_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/voice_seekbar"
+                android:paddingRight="8dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/voice_circle_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/user_img_wrapped"
+                    app:civ_border_color="#fff"
+                    app:civ_border_width="1dp" />
+
+
+                <ImageView
+                    android:id="@+id/voice_message_stat"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="left|bottom"
+                    android:paddingRight="4dp"
+                    tools:src="@drawable/ic_mic_read_with_stroke"
+                     />
+
+            </FrameLayout>
+        </RelativeLayout>
+        </FrameLayout>
+    </com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983996196721",
+    "project_id": "mighty-chat-app",
+    "storage_bucket": "mighty-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983996196721:android:8214e128309de3b14ef8d0",
+        "android_client_info": {
+          "package_name": "com.mighty.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983996196721-vqtkvlhffra0ag1pugtcoohdohddu27k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN1uTPSn9HFEqc0rPr3eGQUFwachaU1pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983996196721-vqtkvlhffra0ag1pugtcoohdohddu27k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

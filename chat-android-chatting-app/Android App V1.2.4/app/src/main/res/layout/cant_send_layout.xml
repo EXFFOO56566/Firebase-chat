@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_cant_send_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e1e1e1"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/you_cant_send_messages_to_group"
+        android:textColor="#565656"
+        android:visibility="visible" />
+
+
+
+
+
+</LinearLayout>

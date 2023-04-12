@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:ignore="SpUsage">
+
+    <ImageView
+        android:id="@+id/imgRelativeBlue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding240"
+        android:contentDescription="@string/cDescription"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_avatar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding240"
+        android:background="@drawable/black_gradient" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding70">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding20"
+            app:cardCornerRadius="@dimen/padding15"
+            app:cardElevation="@dimen/padding10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/padding10">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgAvatar"
+                    android:layout_width="@dimen/paddingImage"
+                    android:layout_height="@dimen/paddingImage"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="@drawable/circle_my_selector"
+                    android:src="@drawable/profile_avatar"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="@dimen/padding1"
+                    tools:ignore="UnusedAttribute" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:layout_marginTop="@dimen/padding7"
+                    android:background="@color/grey_100" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/padding7"
+                    android:paddingBottom="@dimen/padding7">
+
+                    <TextView
+                        android:id="@+id/lblName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/strUsernameSmall"
+                        android:textSize="@dimen/font_ten" />
+
+                    <TextView
+                        android:id="@+id/txtUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:background="@null"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:text="@string/strUsername"
+                        android:textAlignment="viewStart" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:background="@color/grey_100" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/padding7"
+                    android:paddingBottom="@dimen/padding7">
+
+                    <TextView
+                        android:id="@+id/lblEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/strEmailSmall"
+                        android:textSize="@dimen/font_ten" />
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginTop="@dimen/padding2"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:background="@null"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:text="@string/strEmail"
+                        android:textAlignment="viewStart" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:background="@color/grey_100" />
+
+                <com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:mrl_rippleColor="@color/grey_400"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="@dimen/padding2">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutAbout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/padding7"
+                        android:paddingBottom="@dimen/padding7">
+
+                        <TextView
+                            android:id="@+id/lblDescription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/padding5"
+                            android:layout_marginTop="@dimen/padding2"
+                            android:layout_marginRight="@dimen/padding5"
+                            android:fontFamily="@font/roboto_light"
+                            android:text="@string/strStatus"
+                            android:textSize="@dimen/font_ten" />
+
+                        <TextView
+                            android:id="@+id/txtAbout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lblDescription"
+                            android:layout_marginStart="@dimen/padding5"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="start"
+                            android:maxLines="2"
+                            android:text="@string/strAboutStatus"
+                            android:textAlignment="viewStart"
+                            android:textSize="@dimen/font_fourteen" />
+                    </RelativeLayout>
+                </com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:background="@color/grey_100" />
+
+                <com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:mrl_rippleColor="@color/grey_400"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="@dimen/padding2">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:paddingTop="@dimen/padding7"
+                        android:paddingBottom="@dimen/padding7">
+
+                        <TextView
+                            android:id="@+id/lblGender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/padding5"
+                            android:layout_marginTop="@dimen/padding2"
+                            android:layout_marginRight="@dimen/padding5"
+                            android:fontFamily="@font/roboto_light"
+                            android:text="@string/strGender"
+                            android:textSize="@dimen/font_ten" />
+
+                        <TextView
+                            android:id="@+id/txtGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lblGender"
+                            android:layout_marginStart="@dimen/padding5"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="start"
+                            android:maxLines="1"
+                            android:text="@string/strSelectGender"
+                            android:textAlignment="viewStart"
+                            android:textSize="@dimen/font_fourteen" />
+                    </RelativeLayout>
+                </com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:layout_marginBottom="@dimen/padding7"
+                    android:background="@color/grey_100" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/cDescription"
+        app:srcCompat="@drawable/ic_chat"
+        app:useCompatPadding="true" />
+</RelativeLayout>

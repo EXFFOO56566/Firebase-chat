@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#3573e9</color>
+    <color name="purple_700">#3573e9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="oper_text_color">#1db7bd</color>
+    <color name="equl_text_color">#ffffff</color>
+    <color name="main_backg_color">#ffffff</color>
+    <color name="input_backg_color">#ffffff</color>
+
+    <color name="background">#0B0A24</color>
+    <color name="card_background">#6eeca3</color>
+
+    <color name="stepper">#359b60</color>
+    <color name="tint">#2cb365</color>
+    <color name="colorAccent">#2cb365</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#0B0A24</color>
+</resources>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:ignore="SpUsage">
+
+    <View
+        android:id="@+id/relativeBlue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/paddingImgPath"
+        android:background="@color/colorBlue" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding10">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding20"
+            app:cardCornerRadius="@dimen/padding15"
+            app:cardElevation="@dimen/padding10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/padding10">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgAvatar"
+                        android:layout_width="@dimen/paddingImage"
+                        android:layout_height="@dimen/paddingImage"
+                        android:layout_centerInParent="true"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="@drawable/circle_my_selector"
+                        android:src="@drawable/profile_avatar"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="@dimen/padding1"
+                        tools:ignore="UnusedAttribute" />
+
+                    <RelativeLayout
+                        android:id="@+id/layoutCameraGallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/imgAvatar"
+                        android:layout_alignBottom="@+id/imgAvatar"
+                        android:layout_marginEnd="@dimen/padding2"
+                        android:layout_marginBottom="@dimen/padding0"
+                        android:clickable="true"
+                        android:focusable="true">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/padding30"
+                            android:layout_height="@dimen/padding30"
+                            android:layout_centerInParent="true"
+                            android:layout_marginEnd="@dimen/padding5"
+                            android:layout_marginBottom="@dimen/padding2"
+                            android:src="@color/white"
+                            android:visibility="visible"
+                            app:civ_border_color="@color/grey_300"
+                            app:civ_border_width="@dimen/padding1"
+                            app:civ_circle_background_color="@color/white" />
+
+                        <ImageView
+                            android:layout_width="@dimen/padding26"
+                            android:layout_height="@dimen/padding26"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/cDescription"
+                            android:padding="@dimen/padding3"
+                            android:src="@drawable/ic_attach_camera"
+                            app:tint="@color/colorAccent" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:layout_marginTop="@dimen/padding7"
+                    android:background="@color/grey_100" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/padding7"
+                    android:paddingBottom="@dimen/padding7">
+
+                    <TextView
+                        android:id="@+id/lblName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/strUsernameSmall"
+                        android:textSize="@dimen/font_ten" />
+
+                    <TextView
+                        android:id="@+id/txtUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:background="@null"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:text="@string/strUsername"
+                        android:textAlignment="viewStart" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:background="@color/grey_100" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/padding7"
+                    android:paddingBottom="@dimen/padding7">
+
+                    <TextView
+                        android:id="@+id/lblEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/strEmailSmall"
+                        android:textSize="@dimen/font_ten" />
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding5"
+                        android:layout_marginTop="@dimen/padding2"
+                        android:layout_marginRight="@dimen/padding5"
+                        android:background="@null"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:text="@string/strEmail"
+                        android:textAlignment="viewStart" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:background="@color/grey_100" />
+
+                <com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:mrl_rippleColor="@color/grey_400"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="@dimen/padding2">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutAbout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/padding7"
+                        android:paddingBottom="@dimen/padding7">
+
+                        <TextView
+                            android:id="@+id/lblDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/padding5"
+                            android:layout_marginTop="@dimen/padding2"
+                            android:layout_marginRight="@dimen/padding5"
+                            android:layout_toStartOf="@+id/mtrEdit"
+                            android:fontFamily="@font/roboto_light"
+                            android:gravity="start"
+                            android:text="@string/strStatus"
+                            android:textAlignment="viewStart"
+                            android:textSize="@dimen/font_ten" />
+
+                        <com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout
+                            android:id="@+id/mtrEdit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            app:mrl_rippleColor="@color/grey_400"
+                            app:mrl_rippleOverlay="true"
+                            app:mrl_rippleRoundedCorners="@dimen/padding50">
+
+                            <ImageView
+                                android:id="@+id/imgEdit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/cDescription"
+                                android:padding="@dimen/padding7"
+                                app:srcCompat="@drawable/ic_edit" />
+                        </com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout>
+
+                        <TextView
+                            android:id="@+id/txtAbout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lblDescription"
+                            android:layout_marginStart="@dimen/padding5"
+                            android:layout_marginEnd="@dimen/padding40"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="start"
+                            android:maxLines="2"
+                            android:text="@string/strAboutStatus"
+                            android:textAlignment="viewStart"
+                            android:textSize="@dimen/font_fourteen" />
+                    </RelativeLayout>
+                </com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:background="@color/grey_100" />
+
+                <com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:mrl_rippleColor="@color/grey_400"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="@dimen/padding2">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:paddingTop="@dimen/padding7"
+                        android:paddingBottom="@dimen/padding7">
+
+                        <TextView
+                            android:id="@+id/lblGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/padding5"
+                            android:layout_marginTop="@dimen/padding2"
+                            android:layout_marginRight="@dimen/padding5"
+                            android:layout_toStartOf="@id/imgEditGender"
+                            android:fontFamily="@font/roboto_light"
+                            android:gravity="start"
+                            android:text="@string/strGender"
+                            android:textAlignment="viewStart"
+                            android:textSize="@dimen/font_ten" />
+
+                        <ImageView
+                            android:id="@+id/imgEditGender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:contentDescription="@string/cDescription"
+                            android:padding="@dimen/padding7"
+                            app:srcCompat="@drawable/ic_edit" />
+
+                        <TextView
+                            android:id="@+id/txtGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lblGender"
+                            android:layout_marginStart="@dimen/padding5"
+                            android:layout_marginEnd="@dimen/padding40"
+                            android:background="@null"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="start"
+                            android:maxLines="1"
+                            android:text="@string/strSelectGender"
+                            android:textAlignment="viewStart"
+                            android:textSize="@dimen/font_fourteen" />
+                    </RelativeLayout>
+                </com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding1"
+                    android:layout_marginBottom="@dimen/padding7"
+                    android:background="@color/grey_100" />
+
+                <com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mrl_rippleColor="@color/white"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="@dimen/padding10">
+
+                    <Button
+                        android:id="@+id/btnDeleteAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding20"
+                        android:layout_marginTop="@dimen/padding10"
+                        android:layout_marginRight="@dimen/padding20"
+                        android:layout_marginBottom="@dimen/padding10"
+                        android:background="@drawable/rounded"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/padding10"
+                        android:paddingBottom="@dimen/padding10"
+                        android:text="@string/strDeleteAccount"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textStyle="normal" />
+
+                </com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

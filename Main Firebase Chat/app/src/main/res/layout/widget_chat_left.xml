@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="SpUsage">
+
+    <RelativeLayout
+        android:id="@+id/textLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/padding0">
+
+        <com.vanniktech.emoji.EmojiTextView
+            android:id="@+id/txtShowMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:autoLink="phone|web"
+            android:background="@drawable/bg_left"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding10"
+            android:text="@string/strUsername"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="@dimen/font_fourteen"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgPath"
+            android:layout_width="@dimen/paddingImgPath"
+            android:layout_height="@dimen/paddingImgPath"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bg_left"
+            android:contentDescription="@string/cDescription"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_load"
+            android:transitionName="@string/app_name"
+            android:visibility="gone" />
+
+        <!-- RECORDING START -->
+        <RelativeLayout
+            android:id="@+id/recordingLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_left"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/padding3"
+            android:paddingTop="@dimen/padding7"
+            android:paddingEnd="@dimen/padding3"
+            android:paddingBottom="@dimen/padding7"
+            android:visibility="gone">
+
+            <com.bytesbee.firebase.chat.activities.views.voiceplayer.RecordingPlayerView
+                android:id="@+id/voicePlayerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:headsetDirection="left"
+                app:playPauseBackgroundColor="@color/white"
+                app:playPauseCornerRadius="100"
+                app:playPauseIconColor="@color/colorAccent"
+                app:playProgressbarColor="@color/white"
+                app:progressTimeColor="@color/white"
+                app:seekBarProgressColor="@color/white"
+                app:seekBarThumbColor="@color/white"
+                app:shareText="SHARE ME"
+                app:timingBackgroundColor="@color/timingBGColorWhite"
+                app:viewBackground="#00C6C4CF"
+                app:viewCornerRadius="60" />
+
+        </RelativeLayout>
+        <!-- RECORDING END -->
+
+        <!-- AUDIO START -->
+        <RelativeLayout
+            android:id="@+id/audioLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_left"
+            android:padding="@dimen/padding5"
+            android:visibility="gone">
+
+            <com.bytesbee.firebase.chat.activities.views.audiowave.AudioPlayerView
+                android:id="@+id/audioPlayerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:headsetBackgroundColor="@color/white"
+                app:headsetCornerRadius="10"
+                app:headsetDirection="left"
+                app:playPauseBackgroundColor="@color/white"
+                app:playPauseCornerRadius="100"
+                app:playPauseIconColor="@color/colorAccent"
+                app:playProgressbarColor="@color/white"
+                app:progressTimeColor="@color/colorAccent"
+                app:seekBarProgressColor="@color/white"
+                app:seekBarThumbColor="@color/white"
+                app:shareText="SHARE ME"
+                app:viewBackground="#00C6C4CF"
+                app:viewCornerRadius="60" />
+        </RelativeLayout>
+        <!-- AUDIO LAYOUT END -->
+
+        <!-- DOCUMENT LAYOUT START -->
+        <RelativeLayout
+            android:id="@+id/documentLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_left"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:minWidth="@dimen/padding300"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding7"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgFileIcon"
+                android:layout_width="@dimen/padding50"
+                android:layout_height="@dimen/padding50"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/vp_play_pause_bg_white"
+                android:contentDescription="@string/cDescription"
+                app:srcCompat="@drawable/ic_small_document"
+                app:tint="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/imgFileDownload"
+                android:layout_width="@dimen/padding50"
+                android:layout_height="@dimen/padding50"
+                android:layout_toEndOf="@+id/imgFileIcon"
+                android:background="@drawable/vp_play_pause_bg_white"
+                android:clickable="true"
+                android:contentDescription="@string/cDescription"
+                android:focusable="true"
+                android:visibility="visible"
+                app:srcCompat="@drawable/vp_vertical_align_bottom"
+                app:tint="@color/colorAccent" />
+
+            <ProgressBar
+                android:id="@+id/fileProgressBar"
+                android:layout_width="@dimen/padding50"
+                android:layout_height="@dimen/padding50"
+                android:layout_toEndOf="@+id/imgFileDownload"
+                android:indeterminateTint="@color/white"
+                android:indeterminateTintMode="src_in"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/fileProgressBar"
+                android:paddingStart="@dimen/padding7"
+                android:paddingEnd="@dimen/padding7">
+
+                <TextView
+                    android:id="@+id/txtFileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:maxLines="1"
+                    android:text="@string/msgInvalidOrCorruptFile"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txtFileSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtFileName"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/staticSize"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_twelve" />
+
+                <TextView
+                    android:id="@+id/txtFileExt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtFileName"
+                    android:layout_toEndOf="@id/txtFileSize"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_regular"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/padding7"
+                    android:paddingLeft="@dimen/padding7"
+                    android:paddingEnd="@dimen/padding7"
+                    android:paddingRight="@dimen/padding7"
+                    android:text="@string/staticJPG"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_twelve" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <!-- DOCUMENT LAYOUT END -->
+
+        <!-- VIDEO START -->
+        <RelativeLayout
+            android:id="@+id/videoLayout"
+            android:layout_width="@dimen/padding220"
+            android:layout_height="@dimen/padding220"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_left"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding5"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/videoThumbnail"
+                android:layout_width="@dimen/padding210"
+                android:layout_height="@dimen/padding210"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/cDescription"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_avatar" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/videoThumbnail"
+                android:layout_alignBottom="@id/videoThumbnail"
+                android:background="@drawable/bg_tv" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_tv"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/padding3"
+                android:paddingEnd="@dimen/padding5">
+
+                <TextView
+                    android:id="@+id/txtVideoDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/padding5"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:text="@string/staticTime"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_ten"
+                    app:drawableStartCompat="@drawable/ic_small_video_white" />
+
+                <TextView
+                    android:id="@+id/txtVideoSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/txtVideoDuration"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:text="@string/staticSize"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_ten" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgVideoPlay"
+                android:layout_width="@dimen/padding50"
+                android:layout_height="@dimen/padding50"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/vp_play_pause_bg_white"
+                android:clickable="true"
+                android:contentDescription="@string/cDescription"
+                android:focusable="true"
+                app:srcCompat="@drawable/vp_ic_play_arrow_white"
+                app:tint="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/imgVideoDownload"
+                android:layout_width="@dimen/padding50"
+                android:layout_height="@dimen/padding50"
+                android:layout_centerInParent="true"
+                android:background="@drawable/vp_play_pause_bg_white"
+                android:clickable="true"
+                android:contentDescription="@string/cDescription"
+                android:focusable="true"
+                android:visibility="visible"
+                app:srcCompat="@drawable/vp_vertical_align_bottom"
+                app:tint="@color/colorAccent" />
+
+            <ProgressBar
+                android:id="@+id/videoProgressBar"
+                android:layout_width="@dimen/padding50"
+                android:layout_height="@dimen/padding50"
+                android:layout_centerInParent="true"
+                android:indeterminateTint="@color/white"
+                android:indeterminateTintMode="src_in"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+        <!-- VIDEO END -->
+
+        <!-- CONTACT  START -->
+        <RelativeLayout
+            android:id="@+id/contactLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_left"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding5"
+            android:visibility="gone">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgUserContact"
+                android:layout_width="@dimen/padding50"
+                android:layout_height="@dimen/padding50"
+                android:layout_margin="@dimen/padding5"
+                android:src="@drawable/profile_avatar" />
+
+            <TextView
+                android:id="@+id/txtContactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgUserContact"
+                android:layout_alignBottom="@+id/imgUserContact"
+                android:layout_marginStart="@dimen/padding8"
+                android:layout_marginEnd="@dimen/padding5"
+                android:layout_toEndOf="@id/imgUserContact"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text="@string/strUsername"
+                android:textColor="@color/white" />
+
+            <View
+                android:id="@+id/bgColor"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding1"
+                android:layout_below="@+id/imgUserContact"
+                android:layout_marginTop="@dimen/padding2"
+                android:alpha="0.2"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/btnMessageContact"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding40"
+                android:layout_below="@id/bgColor"
+                android:background="@null"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/lblInvite"
+                android:textColor="@color/yellow_50" />
+        </RelativeLayout>
+        <!-- CONTACT END -->
+
+        <!-- LOCATION START -->
+        <RelativeLayout
+            android:id="@+id/locationLayout"
+            android:layout_width="@dimen/padding220"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_left"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding5"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgLocation"
+                android:layout_width="@dimen/padding210"
+                android:layout_height="@dimen/paddingGrpImg"
+                android:contentDescription="@string/cDescription" />
+
+            <TextView
+                android:id="@+id/txtLocationName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgLocation"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="1"
+                android:paddingTop="@dimen/padding5"
+                android:paddingBottom="@dimen/padding3"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_fourteen" />
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLocationName"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/padding5"
+                android:text="@string/app_name"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/font_twelve" />
+        </RelativeLayout>
+        <!-- LOCATION END -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textLayout"
+        android:layout_alignStart="@+id/textLayout"
+        android:layout_marginTop="@dimen/padding1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMsgTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/staticTime"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_ten" />
+
+        <ImageView
+            android:id="@+id/imgMsgSeen"
+            android:layout_width="@dimen/padding12"
+            android:layout_height="@dimen/padding12"
+            android:contentDescription="@string/cDescription"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_check_delivery" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transulcent_toolbar"
+        android:orientation="vertical"
+        android:theme="?actionBarTheme">
+
+        <!--
+          ~ Use fitsSystemWindows here to extend appbar background behind status bar, which can
+          ~ avoid the visual glitch of showing a gap above appbar.
+          -->
+        <com.devlomi.fireapp.views.IgnoreBottomInsetFrameLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:popupTheme="?actionBarPopupTheme"
+                app:titleMarginStart="0dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/toolbar_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="John Doe"
+                        android:textColor="#ffffff" />
+
+
+                    <TextView
+                        android:id="@+id/toolbar_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Today, 9:30PM"
+                        android:textColor="#d7ccc8" />
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+        </com.devlomi.fireapp.views.IgnoreBottomInsetFrameLayout>
+
+
+    </LinearLayout>
+</merge>

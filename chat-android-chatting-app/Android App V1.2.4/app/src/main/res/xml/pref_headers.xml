@@ -1,0 +1,25 @@
+
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.devlomi.fireapp.activities.settings.ProfilePreferenceFragment"
+        android:icon="@drawable/ic_account_circle"
+        android:title="@string/pref_header_profile" />
+
+    <header
+        android:fragment="com.devlomi.fireapp.activities.settings.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/pref_header_notifications" />
+
+
+    <header
+        android:fragment="com.devlomi.fireapp.activities.settings.SettingsActivity$ChatSettingsPreferenceFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/pref_header_chat" />
+
+    <header
+        android:fragment="com.devlomi.fireapp.activities.settings.AboutFragment"
+        android:icon="@drawable/ic_info"
+        android:title="@string/pref_header_about" />
+</preference-headers>

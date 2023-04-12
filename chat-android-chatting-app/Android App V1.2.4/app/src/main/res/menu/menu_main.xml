@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_item"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_hint"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/new_group_item"
+        android:icon="@drawable/ic_group_add"
+        android:title="@string/new_group"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/new_broadcast_item"
+        android:icon="@drawable/ic_broadcast"
+        android:title="@string/new_broadcast"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/invite_item"
+        android:icon="@drawable/ic_person_add"
+        android:title="@string/invite"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/settings_item"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/Settings"
+        app:showAsAction="never" />
+
+
+</menu>

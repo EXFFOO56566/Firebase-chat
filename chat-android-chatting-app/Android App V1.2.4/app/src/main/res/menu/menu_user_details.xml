@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/edit_group"
+        android:icon="@drawable/ic_edit_white"
+        android:title="@string/add_participants"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/add_participants"
+        android:icon="@drawable/ic_person_add"
+        android:title="@string/add_participants"
+        app:showAsAction="always" />
+
+</menu>

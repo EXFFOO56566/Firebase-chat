@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="@dimen/margin_top_message"
+    android:layout_marginBottom="@dimen/margin_bottom_message"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_username_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="test"
+                android:textColor="@color/blue"
+                android:visibility="gone" />
+
+            <include layout="@layout/item_reply" />
+
+
+            <com.google.android.gms.maps.MapView xmlns:map="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/map_view"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@id/title"
+                android:layout_weight="1"
+                android:padding="4dp"
+                map:liteMode="true" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/address_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/place_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:ellipsize="end"
+                        android:maxWidth="180dp"
+                        android:maxLines="1"
+                        android:textColor="@color/blue"
+                        android:textStyle="bold"
+                        tools:text="Alphabet" />
+
+
+                    <TextView
+                        android:id="@+id/place_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:ellipsize="end"
+                        android:maxWidth="220dp"
+                        android:maxLines="1"
+                        android:textColor="@color/text_color_grey"
+                        android:textSize="12sp"
+                        tools:text="Silicon Valley" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/ReceivedMessageTimeTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="12:30" />
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_container"
+    style="@style/SliderRootLayout"
+    android:background="@drawable/back_slide1"
+    tools:ignore="SpUsage">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/SliderTitle"
+        android:text="@string/sliderTitle1" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        style="@style/SliderImage"
+        app:lottie_rawRes="@raw/slider_chat_1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/SliderDescription"
+        android:text="@string/sliderDesc1" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.devlomi.record-view:record-view:2.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8653e13f78f10e4be3ed36053b4adf7f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8653e13f78f10e4be3ed36053b4adf7f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.devlomi.record-view/record-view/2.0.1/c6fabfed7cb818047a9a5e0c9790852bd588cf11/record-view-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_below="@id/appLayout"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/fontRegularStyle"
+            android:text="@string/hide_profile"
+            android:textColor="@color/grey_500" />
+
+        <TextView
+            style="@style/fontRegularStyle"
+            android:layout_marginTop="-7dp"
+            android:text="@string/msgHideProfile"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/grey_500"
+            android:paddingTop="0dp"
+            android:textSize="@dimen/font_twelve"
+            tools:ignore="SpUsage" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:cardCornerRadius="@dimen/padding0"
+            app:cardElevation="@dimen/padding2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layoutEmail"
+                    style="@style/settingLayout">
+
+                    <ImageButton
+                        style="@style/settingImage"
+                        android:contentDescription="@string/cDescription"
+                        app:srcCompat="@drawable/ic_email"
+                        app:tint="@color/amber_700" />
+
+                    <TextView
+                        style="@style/fontLightSettingStyle"
+                        android:layout_marginEnd="@dimen/padding3"
+                        android:text="@string/lblHideEmail" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/emailOnOff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/padding10"
+                        android:checked="false"
+                        app:thumbTint="@color/switch_color_primary" />
+
+                </LinearLayout>
+
+                <View style="@style/settingHorizontalLine" />
+
+                <LinearLayout
+                    android:id="@+id/layoutProfilePhoto"
+                    style="@style/settingLayout">
+
+                    <ImageButton
+                        style="@style/settingImage"
+                        android:contentDescription="@string/cDescription"
+                        app:srcCompat="@drawable/ic_places_art_gallery"
+                        app:tint="@color/light_blue_a_700" />
+
+                    <TextView
+                        style="@style/fontLightSettingStyle"
+                        android:layout_marginEnd="@dimen/padding3"
+                        android:text="@string/lblHideProfilePhoto" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/profilePhotoOnOff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/padding10"
+                        android:checked="false"
+                        app:thumbTint="@color/switch_color_primary" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_app_id" />
+</RelativeLayout>

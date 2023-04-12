@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:paddingTop="4dp"
+    android:background="#fff"
+    >
+
+    <RelativeLayout
+        android:id="@+id/container_layout"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/user_img_wrapped"
+            app:civ_border_color="#bdbdbd"
+            app:civ_border_width="1dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/user_photo"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@+id/user_photo"
+                    android:layout_toRightOf="@id/user_photo"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical|left"
+                    android:maxLines="1"
+                    android:text="John Doe"
+
+                    android:textColor="@color/chat_list_title_color"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/time_chats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="4:52 PM"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_read_tag_chats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ic_check"
+                    tools:tint="#000000" />
+
+                <TextView
+                    android:id="@+id/tv_last_message"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_name"
+                    android:layout_alignStart="@id/tv_name"
+                    android:layout_below="@id/tv_name"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical|left"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/colorTextDesc"
+                    android:textDirection="ltr"
+                    tools:drawableLeft="@drawable/ic_photo_camera_white_24dp"
+                    tools:drawableTint="#000000" />
+
+
+                <TextView
+                    android:id="@+id/tv_typing_stat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_name"
+                    android:layout_alignStart="@id/tv_name"
+                    android:layout_below="@id/tv_name"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/typing_color"
+                    android:textDirection="ltr"
+                    android:visibility="gone"
+                    tools:text="OK Bro" />
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/time_chats"
+
+                    android:background="@drawable/circle_bg">
+
+                    <TextView
+                        android:id="@+id/count_unread_badge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_below="@id/container_layout"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorDivider" />
+
+</RelativeLayout>

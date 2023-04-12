@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.crashlytics.sdk.android</group-id>
+        <name>crashlytics</name>
+        <version>2.10.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>palette-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.firebaseui</group-id>
+        <name>firebase-ui-auth</name>
+        <version>2.1.0</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.jetbrains.kotlin</group-id>
+        <name>kotlin-stdlib-jdk7</name>
+        <version>1.3.31</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>de.hdodenhof</group-id>
+        <name>circleimageview</name>
+        <version>3.0.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.thoughtbot</group-id>
+        <name>expandablecheckrecyclerview</name>
+        <version>1.0.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>android.arch.lifecycle</group-id>
+        <name>extensions</name>
+        <version>1.1.1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>android.arch.lifecycle</group-id>
+        <name>viewmodel</name>
+        <version>1.1.1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>retrofit</name>
+        <version>2.5.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>io.reactivex.rxjava2</group-id>
+        <name>rxjava</name>
+        <version>2.2.8</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.jakewharton.retrofit</group-id>
+        <name>retrofit2-kotlin-coroutines-adapter</name>
+        <version>0.9.2</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-maps</name>
+        <version>16.1.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-messaging</name>
+        <version>18.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>me.zhanghai.android.systemuihelper</group-id>
+        <name>library</name>
+        <version>1.0.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>glide</name>
+        <version>4.9.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-functions</name>
+        <version>17.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>support-v4</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>multidex</name>
+        <version>1.0.3</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-alpha5</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>me.leolin</group-id>
+        <name>ShortcutBadger</name>
+        <version>1.1.22</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.lzyzsd</group-id>
+        <name>circleprogress</name>
+        <version>1.1.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>io.reactivex.rxjava2</group-id>
+        <name>rxandroid</name>
+        <version>2.1.1</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.greenrobot</group-id>
+        <name>eventbus</name>
+        <version>3.1.1</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.jetbrains.kotlinx</group-id>
+        <name>kotlinx-coroutines-android</name>
+        <version>1.2.1</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>converter-gson</name>
+        <version>2.5.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-auth</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.googlecode.ez-vcard</group-id>
+        <name>ez-vcard</name>
+        <version>0.10.5</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-storage</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-ads</name>
+        <version>17.2.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-location</name>
+        <version>16.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>ca.barrenechea.header-decor</group-id>
+        <name>header-decor</name>
+        <version>0.2.8</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.evernote</group-id>
+        <name>android-job</name>
+        <version>1.3.0-rc1</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-core</name>
+        <version>16.0.9</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-database</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.robolectric</group-id>
+        <name>robolectric</name>
+        <version>4.3-beta-1</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>recyclerview-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.0.2</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1557589691199</last-search-timestamp>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7779f61-e982-4cce-ad43-55c0fb0c9cb0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/Bryndan-Write.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/Norican-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/Oswald-Heavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/RobotoMono-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/stickers/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/TextStatusActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/setup/SetupUserActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/common/ScopedActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/common/ScopedViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/common/extensions/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/TextStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/NearbyPlacesAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/Place.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesWebService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/ScopedActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/Category.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/Icon.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/LabeledLatLng.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/Location.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/Meta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/PlacesResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/Response.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/Venue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/model/VenuePage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FontUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/ImageEditorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SnackbarUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/AutoResizeEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/TextViewWithShapeBackground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/IgnoreBatteryDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_bg_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_color_lens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_insert_emoticon_black.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_location_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_places_auto_complete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_places_picker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_text_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_ignore_battery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/places_bottomsheet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_place.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageeditengine/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/devlomi/fireapp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/CallingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/CallingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ContactDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ContactDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ForwardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ForwardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/FullscreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/FullscreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/MediaGalleryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/MediaGalleryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/MyStatusActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/MyStatusActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/NewChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/NewChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/NewGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/NewGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/SetupUserActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ShareGroupLinkActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ShareGroupLinkActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/UserDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/UserDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ViewStatusActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ViewStatusActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/settings/AboutFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/settings/AboutFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/settings/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/settings/SettingsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/ChatsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/ChatsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/MessagingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/MessagingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/MyStatusAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/MyStatusAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/StatusAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/StatusAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/FragmentChats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/FragmentChats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/StatusFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/StatusFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/interfaces/StatusFragmentCallbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/interfaces/StatusFragmentCallbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/constants/StatusType.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/constants/StatusType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/UserStatuses.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/UserStatuses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/DirManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/DirManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FireConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FireConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FireListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FireListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/IntentUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/IntentUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MessageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MessageCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MessageTypeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MessageTypeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MyMigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MyMigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/NotificationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/NotificationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/PermissionsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/PermissionsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SharedPreferencesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SharedPreferencesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SinchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SinchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/StatusCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/StatusCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/StatusManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/StatusManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/TimeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/TimeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/DeleteDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/DeleteDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/DialogChoseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/DialogChoseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/SetGroupTitleDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/SetGroupTitleDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rx/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/about_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/about_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_status.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_phone_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_phone_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setup_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setup_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_status.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_my_status.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_my_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_received_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_received_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_sent_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_sent_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_status.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/typing_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/typing_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/bool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/pref_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/pref_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/devlomi/fireapp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cameraView/cameraView.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cameraView/cameraView.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cameraView/src/main/java/com/cjt2325/cameralibrary/ResultCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/cameraView/src/main/java/com/cjt2325/cameralibrary/ResultCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories-progress-view/stories-progress-view.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stories-progress-view/stories-progress-view.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FireApp  Android App V1.2.4 - Developer Version" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FireApp  Android App V1.2.4 - Developer Version" type="f1a62948:ProjectNode" />
+                <item name="FireApp  Android App V1.2.4 - Developer Version" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FireApp  Android App V1.2.4 - Developer Version" type="f1a62948:ProjectNode" />
+                <item name="FireApp  Android App V1.2.4 - Developer Version" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FireApp  Android App V1.2.4 - Developer Version" type="f1a62948:ProjectNode" />
+                <item name="FireApp  Android App V1.2.4 - Developer Version" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FireApp  Android App V1.2.4 - Developer Version" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>statusIn</find>
+      <find>hand</find>
+      <find>text</find>
+      <find>fab_</find>
+      <find>fab</find>
+      <find>textStatusFab</find>
+      <find>onActivit</find>
+      <find>textStatu</find>
+      <find>onActi</find>
+      <find>onActivityRes</find>
+      <find>onActivityResul</find>
+      <find>open</find>
+      <find>compa</find>
+      <find>onAct</find>
+      <find>onActivityResu</find>
+      <find>onActivi</find>
+      <find>3llomi</find>
+      <find>foursqu</find>
+      <find>foursq</find>
+      <find>addLocalV</find>
+      <find>setRes</find>
+      <find>delet</find>
+      <find>deleteS</find>
+      <find>String.format</find>
+      <find>dialog</find>
+      <find>auth</find>
+      <find>view</find>
+      <find>index</find>
+      <find>.get(</find>
+      <find>@keep</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\FireApp Project\FireApp Files\codecanyon-key.jks" />
+    <option name="KEY_ALIAS" value="ccanyon" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/services/MyFCMService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/pref_notification.xml" />
+        <option value="$PROJECT_DIR$/imageeditengine/src/main/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/imageeditengine/src/main/java/com/droidninja/imageeditengine/CropFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/IgnoreBatteryDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/settings/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_ignore_battery.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FabRotationAnimation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/common/extensions/Extensions.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/typing_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/IntentUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SinchConfig.java" />
+        <option value="$PROJECT_DIR$/imageeditengine/src/main/jni/filter.c" />
+        <option value="$PROJECT_DIR$/imageeditengine/src/main/jni/transform.c" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/FragmentChats.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/interfaces/StatusFragmentCallbacks.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SharedPreferencesManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/TextStatusActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FontUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/UserStatuses.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/Status.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_my_status.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/ImageEditorRequest.java" />
+        <option value="$PROJECT_DIR$/imageeditengine/src/main/java/com/droidninja/imageeditengine/PhotoEditorFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/TimeHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/CallingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/Place.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ChatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ContactDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/MyStatusActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ShareGroupLinkActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/ViewStatusActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/MessagingAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/StatusAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/StatusFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FireListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/IgnoreBatteryDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/imageeditengine/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/TextStatus.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/setup/SetupUserActivity.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages AndroidView="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FireApp  Android App V1.2.4" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="devlomi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="devlomi" type="462c0819:PsiDirectoryNode" />
+              <item name="fireapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FireApp  Android App V1.2.4 - Developer Version" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="devlomi" type="462c0819:PsiDirectoryNode" />
+              <item name="fireapp" type="462c0819:PsiDirectoryNode" />
+              <item name="placespicker" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="D:\FireApp Project\FireApp Files\V1.2.4\FireApp  Android App V1.2.4\app\release" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Shared&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/utils/SharedPreferencesManager.java&#10;Setup&#9;PSI&#9;JAVA://com.devlomi.fireapp.activities.SetupUserActivity&#10;Scoped&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/common/ScopedViewModel.kt&#10;StatusCr&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/utils/StatusCreator.java&#10;MyStatus&#9;PSI&#9;JAVA://com.devlomi.fireapp.adapters.MyStatusAdapter&#10;MySta&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/MyStatusActivity.java&#10;Adapt&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/adapters/StatusAdapter.java&#10;ViewS&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/ViewStatusActivity.java&#10;StatusAda&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/adapters/StatusAdapter.java&#10;Accep&#9;PSI&#9;JAVA://com.devlomi.fireapp.activities.AcceptInviteLink&#10;ChatsA&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/adapters/ChatsAdapter.java&#10;ChatsAda&#9;PSI&#9;JAVA://com.devlomi.fireapp.adapters.ChatsAdapter&#10;TImeH&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/utils/TimeHelper.java&#10;Stat&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/fragments/StatusFragment.java&#10;statusF&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/fragments/StatusFragment.java&#10;StatusA&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/ViewStatusActivity.java&#10;row_stat&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/layout/row_status.xml&#10;MainA&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/main/MainActivity.kt&#10;TextS&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/model/TextStatus.kt&#10;MyMig&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/utils/MyMigration.java&#10;Ma&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/MainActivity.kt&#10;StatusMa&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/utils/StatusManager.java&#10;places&#9;null&#9;null&#10;Migra&#9;PSI&#9;JAVA://com.devlomi.fireapp.utils.MyMigration&#10;Mess&#9;PSI&#9;JAVA://com.devlomi.fireapp.model.realms.Message&#10;ChatAc&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/ChatActivity.java&#10;TextStat&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/TextStatusActivity.kt&#10;Views&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/ViewStatusActivity.java&#10;Mai&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/MainActivity.java&#10;StatusFr&#9;PSI&#9;JAVA://com.devlomi.fireapp.fragments.StatusFragment&#10;LoginA&#9;PSI&#9;JAVA://com.devlomi.fireapp.activities.LoginActivity&#10;Fragment&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/settings/AboutFragment.java&#10;bool&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/values/bool.xml&#10;NewCh&#9;PSI&#9;JAVA://com.devlomi.fireapp.activities.NewChatActivity&#10;AboutF&#9;PSI&#9;JAVA://com.devlomi.fireapp.activities.settings.AboutFragment&#10;IntenU&#9;PSI&#9;JAVA://com.devlomi.fireapp.utils.IntentUtils&#10;DirM&#9;PSI&#9;JAVA://com.devlomi.fireapp.utils.DirManager&#10;SinchCon&#9;PSI&#9;JAVA://com.devlomi.fireapp.utils.SinchConfig&#10;CallingA&#9;PSI&#9;JAVA://com.devlomi.fireapp.activities.CallingActivity&#10;Delete&#9;PSI&#9;JAVA://com.devlomi.fireapp.views.DeleteDialog&#10;colors&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/values/colors.xml&#10;MessageTypeH&#9;PSI&#9;JAVA://com.devlomi.fireapp.utils.MessageTypeHelper&#10;row_re&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/layout/row_received_contact.xml&#10;contact_de&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/layout/activity_contact_details.xml&#10;row_rec&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/layout/row_received_contact.xml&#10;row_sent&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/layout/row_sent_contact.xml&#10;NewGr&#9;PSI&#9;JAVA://com.devlomi.fireapp.activities.NewGroupActivity&#10;Permissio&#9;PSI&#9;JAVA://com.devlomi.fireapp.utils.PermissionsUtil&#10;row_p&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/res/layout/row_place.xml&#10;PlacesA&#9;FILE&#9;file://D:/FireApp Project/FireApp Files/V1.2.4/FireApp  Android App V1.2.4 - Developer Version/app/src/main/java/com/devlomi/fireapp/activities/placespicker/PlacesPickerActivity.kt" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="asset" value="rO0ABXNyADxkZS5tcHJlbmdlbWFubi5pbnRlbGxpai5wbHVnaW4uYW5kcm9pZGljb25zLm1vZGVsLkltYWdlQXNzZXQl990GqIfF7gIABkwACGNhdGVnb3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAGY29sb3JzdAAQTGphdmEvdXRpbC9MaXN0O0wABG5hbWVxAH4AAUwABHBhY2txAH4AAUwAC3Jlc29sdXRpb25zcQB+AAJMAAVzaXplc3EAfgACeHB0AApuYXZpZ2F0aW9uc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAAF0AAVibGFja3h0AA1pY19mdWxsc2NyZWVudAAObWF0ZXJpYWxfaWNvbnNzcQB+AAUAAAAGdwQAAAAGfnIAPGRlLm1wcmVuZ2VtYW5uLmludGVsbGlqLnBsdWdpbi5hbmRyb2lkaWNvbnMubW9kZWwuUmVzb2x1dGlvbgAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABkFOWURQSX5xAH4AC3QABEhEUEl+cQB+AAt0AARNRFBJfnEAfgALdAAFWEhEUEl+cQB+AAt0AAZYWEhEUEl+cQB+AAt0AAdYWFhIRFBJeHNxAH4ABQAAAAR3BAAAAAR0AAQxOGRwdAAEMjRkcHQABDM2ZHB0AAQ0OGRweA==" />
+    <property name="device.picker.selection" value="Pixel_2_XL_API_27" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="lastFolderRoot" value="$PROJECT_DIR$/../../V1.2.3/FireApp  Android App V1.2.3 - Developer Version/app/src/main/res/drawable" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="resourcesRoot" value="file://D:\FireApp Project\FireApp Files\V1.2.3\FireApp  Android App V1.2.3 - Developer Version\app\src\main\res\drawable" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FireApp Project\FireApp Files\V1.2.3\FireApp  Android App V1.2.3 - Developer Version\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.devlomi.fireapp.common" />
+      <recent name="com.devlomi.fireapp.activities.main" />
+      <recent name="com.devlomi.fireapp.activities.placespicker" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.devlomi.fireapp.views" />
+      <recent name="com.devlomi.fireapp.activities" />
+      <recent name="com.devlomi.fireapp.activities.placespicker" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FireApp Project\FireApp Files\V1.2.4\FireApp  Android App V1.2.4 - Developer Version\app\src\main\res\drawable" />
+      <recent name="D:\FireApp Project\FireApp Files\V1.2.4\FireApp  Android App V1.2.4 - Developer Version\app\src\main\java\com\devlomi\fireapp" />
+      <recent name="D:\FireApp Project\FireApp Files\V1.2.4\FireApp  Android App V1.2.4 - Developer Version\placespicker\src\main\res\drawable" />
+      <recent name="D:\FireApp Project\FireApp Files\V1.2.4\FireApp  Android App V1.2.4 - Developer Version\placespicker\src\main\res\layout" />
+      <recent name="D:\FireApp Project\FireApp Files\V1.2.4\FireApp  Android App V1.2.4 - Developer Version\placespicker\src\main\java\com\devlomi\placespicker" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URL http://join.fireapp-chat.com" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="launch_deep_link" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="http://join.fireapp-chat.com" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URL http://join.fireapp-chat.com/link" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="launch_deep_link" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="http://join.fireapp-chat.com/link" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URL http://join.fireapp-chat.com/test" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="launch_deep_link" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="http://join.fireapp-chat.com/test" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" goal="" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FireApp  Android App V1.2.4 - Developer Version [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.URL http://join.fireapp-chat.com/link" />
+      <item itemvalue="Android App.URL http://join.fireapp-chat.com" />
+      <item itemvalue="Android App.URL http://join.fireapp-chat.com/test" />
+      <item itemvalue="Gradle.FireApp  Android App V1.2.4 - Developer Version [build]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FireApp  Android App V1.2.4 - Developer Version [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7779f61-e982-4cce-ad43-55c0fb0c9cb0" name="Default" comment="" />
+      <created>1547474875378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547474875378</updated>
+    </task>
+    <task id="LOCAL-00001" summary="V1.2.2">
+      <created>1547475393761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547475393761</updated>
+    </task>
+    <task id="LOCAL-00002" summary="V1.2.3">
+      <created>1549746806621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549746806621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.19509594" />
+      <window_info id="Structure" order="1" sideWeight="0.5064378" side_tool="true" weight="0.24840085" />
+      <window_info id="Captures" order="2" sideWeight="0.5057283" side_tool="true" weight="0.3379531" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Build Variants" order="4" sideWeight="0.50524473" side_tool="true" weight="0.24786781" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.5038932" side_tool="true" weight="0.24733475" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4788889" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32666665" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32814237" />
+      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.49840087" weight="0.32" />
+      <window_info active="true" anchor="bottom" id="Build" order="9" sideWeight="0.4978678" visible="true" weight="0.24" />
+      <window_info anchor="bottom" id="Android Profiler" order="10" show_stripe_button="false" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.32" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" weight="0.32925472" />
+      <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Preview" order="5" sideWeight="0.4942717" weight="0.32889125" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="6" sideWeight="0.5011161" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Device File Explorer" order="7" sideWeight="0.5057283" side_tool="true" weight="0.32889125" />
+      <window_info anchor="right" id="Flutter Outline" order="8" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Assistant" order="12" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V1.2.2" />
+    <MESSAGE value="V1.2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.2.3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/GroupManager.java</url>
+          <line>251</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/GroupManager.java</url>
+          <line>372</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/AcceptInviteLink.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/GroupManager.java</url>
+          <line>366</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/GroupEvent.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/GroupEvent.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/FragmentChats.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/FragmentChats.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmBackupRestore.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmBackupRestore.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/StatusFragment.java</url>
+          <line>260</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmHelper.java</url>
+          <line>1304</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmHelper.java</url>
+          <line>1295</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmHelper.java</url>
+          <line>1308</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerActivity.kt</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerActivity.kt</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModel.kt</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModel.kt</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModel.kt</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModel.kt</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModel.kt</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/placespicker/PlacesPickerViewModel.kt</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/setup/SetupUserActivity.kt</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/common/extensions/Extensions.kt</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>SharedPreferencesManager.isCurrentUserInfoSaved()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>GroupLinkUtil.getFinalLink(group.getCurrentGroupLink())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/MessagingAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="1430" selection-start-line="1430" selection-end-line="1430" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/MyStatusAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/FragmentChats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="262" selection-start-line="262" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/fragments/StatusFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="353" column="36" selection-start-line="353" selection-start-column="36" selection-end-line="353" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/interfaces/StatusFragmentCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/constants/StatusType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3266">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+          <folding>
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2068#2069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/realms/UserStatuses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/DirManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FireConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2000">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FireListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/FontUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/ImageEditorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/IntentUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1356">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MessageCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-989">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MessageTypeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/MyMigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3242">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/NotificationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/PermissionsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-735">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SinchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/StatusCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/StatusManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2497">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/TimeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/DeleteDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/DialogChoseNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/SetGroupTitleDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1103">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/AutoResizeEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/TextViewWithShapeBackground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/NewChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4232">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/NewGroupActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/RealmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32936">
+          <caret line="1471" column="34" selection-start-line="1471" selection-start-column="34" selection-end-line="1471" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/CallingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/main/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4347">
+          <caret line="238" column="44" selection-start-line="238" selection-start-column="44" selection-end-line="238" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SharedPreferencesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5773">
+          <caret line="287" column="63" selection-start-line="287" selection-start-column="63" selection-end-line="287" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/views/dialogs/IgnoreBatteryDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/utils/SnackbarUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7130">
+          <caret line="310" selection-start-line="310" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="71" column="106" selection-start-line="71" selection-start-column="106" selection-end-line="71" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="81" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/MyStatusActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/adapters/StatusAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="157" column="54" selection-start-line="157" selection-start-column="54" selection-end-line="157" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/model/TextStatus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageeditengine/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devlomi/fireapp/activities/setup/SetupUserActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3082">
+          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+          <folding>
+            <element signature="e#5577#5608#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

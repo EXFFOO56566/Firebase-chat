@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:background="?attr/selectableItemBackground"
+    android:focusable="true"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_circle_background_color="@color/colorDarkGray"
+        android:id="@+id/icon_location"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_location_on" />
+
+
+    <TextView
+        android:id="@+id/tv_place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="TEST"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintStart_toEndOf="@+id/icon_location"
+        app:layout_constraintTop_toTopOf="@+id/icon_location" />
+
+    <TextView
+        android:id="@+id/tv_place_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        android:textColor="@color/gray_light"
+        app:layout_constraintStart_toStartOf="@+id/tv_place_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_place_name" />
+
+</android.support.constraint.ConstraintLayout>

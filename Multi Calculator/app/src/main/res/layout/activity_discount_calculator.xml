@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiscountCalculator"
+    android:background="#f6f8fa"
+    >
+
+    <LinearLayout
+        android:id="@+id/bottomselector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:background="#fbdc7f"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_weight=".5"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/price"
+                        android:hint="Original Price"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:inputType="numberDecimal"
+                        android:layout_centerInParent="true"
+                        />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fbe297"
+
+                    >
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_weight=".5"
+                        android:layout_height="wrap_content"
+                        android:minEms="6"
+                        android:maxEms="10"
+                        android:id="@+id/percentage"
+                        android:hint="Discount %"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:inputType="numberDecimal"
+                        android:layout_centerInParent="true"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f4c742"
+                    >
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/calcResult"
+                        android:freezesText="true"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fcbf0a"
+                android:text="apply"
+                android:onClick="applyDiscount"
+                android:id="@+id/button"
+                android:textColor="@android:color/white"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

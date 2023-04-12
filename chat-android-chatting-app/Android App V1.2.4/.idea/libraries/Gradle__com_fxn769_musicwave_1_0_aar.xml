@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fxn769:musicwave:1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/270a9ad91366d813afe4f73af9ffa327/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/270a9ad91366d813afe4f73af9ffa327/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fxn769/musicwave/1.0/554861a1d136de3ec4c743f1f5135ad141a32996/musicwave-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

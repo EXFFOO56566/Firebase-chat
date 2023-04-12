@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">My Firebase Chat</string>
+    <string name="app_description">Real time chat with your friends!</string>
+    <string name="app_company_name">Powered by: %1$s</string>
+    <string name="app_company">BytesBee</string>
+    <string name="app_version">v %1$s</string>
+    <string name="cDescription" />
+
+    <string name="strSignIn">SIGN IN</string>
+    <string name="strRegister">REGISTER</string>
+    <string name="strEmail">EMAIL</string>
+    <string name="strUsername">USERNAME</string>
+    <string name="strPassword">PASSWORD</string>
+    <!--    <string name="strExistUser">Already have account? Sign In</string>-->
+    <string name="strExistUser"><![CDATA[<font color=#9e9e9e>Already have account?</font> <b><font color=#0671da>Sign In</font></b>]]></string>
+    <string name="strNewSignUp"><![CDATA[<font color=#9e9e9e>Don\'t have account?</font> <b><font color=#0671da>Sign up</font></b>]]></string>
+    <string name="strReAuthenticate">Login</string>
+    <string name="strMsgAuthenticate">Please make sure that deleted account can\'t be recover any data which exist right now.</string>
+    <string name="strGroupAdmin">Group Admin</string>
+    <string name="strCreatedOn">Created on %1$s</string>
+    <string name="strParticipants">%1$d participants</string>
+
+    <!-- Messages -->
+    <string name="msg_please_wait">Please wait…</string>
+    <string name="msg_image_upload">Uploading…</string>
+    <string name="strLogout">Logout</string>
+    <string name="strTakeTour">Take a tour</string>
+    <string name="strRateApp">Rate App</string>
+    <string name="strShareApp">Share App</string>
+    <string name="strAboutUs">About us</string>
+    <string name="strSettings">Settings</string>
+    <string name="strPrivacy">Privacy Policy</string>
+    <string name="strPrivacySetting">Privacy Settings</string>
+    <string name="strDeleteAccount">Delete My Account</string>
+
+    <string name="strUserInfo">User Info</string>
+    <string name="strGroupView">Group Info</string>
+    <string name="strClearMyChats">Clear Own Chats</string>
+    <string name="strEditGroup">Edit Group</string>
+    <string name="strLeaveGroup">Leave Group</string>
+    <string name="strDeleteGroup">Delete Group</string>
+    <string name="strExitGroup">Exit Group</string>
+    <!-- Close message-->
+    <string name="press_again_to_exit">Press again to exit app</string>
+
+    <string name="strChats">Chats</string>
+    <string name="strUsers">Users</string>
+    <string name="strGroups">Groups</string>
+    <string name="strProfile">Profile</string>
+    <string name="strCreateNewGroup">Create Group</string>
+    <string name="strSearch">Search…</string>
+    <string name="strSearchWithCount">Search… (Total Users : %1$d)</string>
+
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="strTyping">typing…</string>
+    <string name="strShareTitle">My Firebase Chat</string>
+    <string name="strShareContent">I would like to share Amazing App with you. You can download this application from playstore easily.</string>
+    <string name="strDeleteConversion">Do you want to delete this conversion?</string>
+    <string name="strOK">OK</string>
+    <string name="strYes">Yes</string>
+    <string name="strNo">No</string>
+    <string name="strOneCount">9</string>
+    <string name="strEmailSmall">Email</string>
+    <string name="strUsernameSmall">Username</string>
+    <string name="strStatus">About</string>
+    <string name="strAboutStatus">Hey! I am using Firebase Chat.</string>
+    <string name="strEnterAbout">Enter your status</string>
+    <string name="msgErrorEnterDesc">Please enter your status</string>
+    <string name="strDone">Done</string>
+    <string name="strCancel">Cancel</string>
+
+    <string name="strSelectGender">Select Gender</string>
+    <string name="msgSelectGender">Please select gender</string>
+    <string name="strGender">Gender</string>
+    <string name="strMale">Male</string>
+    <string name="strFemale">Female</string>
+    <string name="strUnspecified">Unspecified</string>
+    <string-array name="arrGender">
+        <item>@string/strMale</item>
+        <item>@string/strFemale</item>
+    </string-array>
+
+    <!-- Filters -->
+    <string name="strFilters">Filters</string>
+    <string name="strFilterTitle">Filters</string>
+    <string name="strFilterOnline">Online/Offline</string>
+    <string name="strOnline">Online</string>
+    <string name="strOffline">Offline</string>
+    <string name="msgErrorUserOnline">Please select at least 1 (Online or Offline)</string>
+    <string name="msgErrorGender">Please select at least 1 Gender</string>
+    <string name="strAllFieldsRequired">All fields are required!</string>
+    <string name="strInvalidEmailPassword">Invalid email or password!</string>
+    <string name="strInvalidEmail">Invalid email address!</string>
+    <string name="strEnterGroupName">Enter Group Name</string>
+    <string name="msgEnterGroupName">Please enter group name</string>
+    <string name="msgGroupMoreThanOne">Add at lease two members to create group</string>
+    <string name="msgTapToStartChat">Tap to start group chat!</string>
+    <string name="strYou">You</string>
+    <string name="strGroupInfo">Tap to see group info</string>
+    <string name="lblAboutUs">About us</string>
+    <string name="lblPrivacyPolicy">Privacy Policy</string>
+    <string name="strEmptyMsg">You can\'t send empty message</string>
+    <string name="msgOnlyAdminEdit">Only Group Admin can edit group.</string>
+    <string name="msgOnlyAdminDelete">Only Group Admin can delete group.</string>
+    <string name="msgFailedToUpload">Failed to upload!</string>
+    <string name="strNewMessage">New Message</string>
+    <string name="strNewGroupMessage">New Group Message</string>
+    <string name="strSelected">Selected :</string>
+    <string name="msgUploadInProgress">Upload in progress!</string>
+    <string name="lblPhoto">Photo</string>
+    <string name="strDelete">Delete</string>
+    <string name="strLeave">Leave Group</string>
+    <string name="strDeleteOwnChats">Do you want to delete your own chats?</string>
+    <string name="strLeaveFromGroup">Do you want to leave from this group(It will delete your own chats as well)?</string>
+    <string name="strDeleteWholeGroup">Do you want to delete whole group(It will delete all data as well)?</string>
+    <string name="strPhotoSent">Tap to view photo sent by %1$s</string>
+
+    <string name="profile_setting">PROFILE SETTING</string>
+    <string name="general_setting">GENERAL</string>
+    <string name="notification">Notification</string>
+    <string name="rtl">RTL (Right to Left)</string>
+
+    <string name="ref_title">Refresh</string>
+    <string name="ref_message">To reflect the new changes app automatically restart</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Do you want logout from application?</string>
+
+    <!-- New v1.4 -->
+    <!-- New v1.4 -->
+    <string name="strTypeYourMessage">Type your message</string>
+    <string name="msgNoImageSelected">No Image selected!</string>
+    <string name="lblImage">Image</string>
+    <string name="lblAudio">Audio</string>
+    <string name="lblVideo">Video</string>
+    <string name="lblDocument">Document</string>
+    <string name="lblContact">Contact</string>
+    <string name="lblLocation">Location</string>
+    <string name="lblVoiceRecording">Voice recording</string>
+
+    <string name="recording_cancelled">Recording cancelled</string>
+    <string name="recording">Recording…</string>
+    <string name="msgFileNotFound">File not found!</string>
+
+    <string name="strProfilePic">Profile Picture</string>
+    <string name="strWithPicture">With Picture</string>
+    <string name="strWithoutPicture">Without Picture</string>
+    <string name="msgErrorProfilePicture">Please select at least 1 Profile Picture option</string>
+
+    <string name="titleSendMessages">Send messages</string>
+    <string name="lblMessageSetting">Choose who can send messages to this group</string>
+    <string name="lblAllParticipants">All participants</string>
+    <string name="lblOnlyAdmin">Only admin</string>
+    <string name="only_admin_can_send_messages"><![CDATA[Only <strong><font color=#2196F3>admin</font></strong> can send messages]]></string>
+    <string name="settingVersion">App version %1$s</string>
+
+    <string name="staticDate">01–01–2000</string>
+    <string name="staticTime">01:01 AM</string>
+    <string name="staticTimeZero">00:00</string>
+    <string name="staticSize">123 KB</string>
+    <string name="staticJPG">JPG</string>
+    <string name="choose_file">Select a file</string>
+    <string name="choose_contact">Select a contact</string>
+    <string name="msgWaitingForFile">Please wait to receive file…</string>
+    <string name="msgChooseFileFromOtherLocation">Kindly choose file from proper location</string>
+    <!--    <string name="msgInvalidOrCorruptFile">Invalid or corrupted file.</string>-->
+    <string name="msgInvalidOrCorruptFile">Document File</string>
+    <string name="msgDownloadingStarted">Downloading started</string>
+    <string name="msgDownloadFile">Downloading %1$s</string>
+    <string name="lblInvite">Invite</string>
+    <string name="msgFileTooBig">File is too big (max = %1$dMB)</string>
+    <string name="strSlideToCancel">Slide To Cancel</string>
+    <string name="msgGPSTurnOn">Please turn on GPS to retrieve location</string>
+
+    <string name="sliderTitle1">Welcome to My\nFirebase Chat App</string>
+    <string name="sliderTitle2">Chat anytime,\nanywhere</string>
+    <string name="sliderTitle3">Make Ultimate\nGroup Chat</string>
+    <string name="sliderTitle4">Send a Message,\nMedia, and Files</string>
+    <string name="sliderTitle5">Received\nImportant Alert</string>
+
+    <string name="sliderDesc1">A free chat connection between your friend and family members are easy and much everywhere on any device.</string>
+    <string name="sliderDesc2">Passing of any information on any screen, any device instantly is made simple now.</string>
+    <string name="sliderDesc3">Create a group chats and stay in touch with your gang and share your memories.</string>
+    <string name="sliderDesc4">Have fun with your friends by sending photo, audio, video and other document quickly and faster</string>
+    <string name="sliderDesc5">Receive important notification when friends are looking to chat with you.</string>
+    <string name="strNoGroupCreated">No groups created yet!</string>
+    <string name="strYouHaveNoGroups">Looks like you haven\'t create groups!</string>
+    <string name="strGallery">Gallery</string>
+    <string name="strCamera">Camera</string>
+    <string name="lblZeroPercentage">0 %</string>
+    <string name="strZeroTimer">00:00:00 / 00:00:00</string>
+
+    <string name="lblHideEmail">@string/strEmailSmall</string>
+    <string name="lblHideProfilePhoto">Profile Photo</string>
+    <string name="msgPrivateEmail">Private Email by user</string>
+    <string name="hide_profile">PROFILE SETTING</string>
+    <string name="msgHideProfile">Hide/Show options while viewing your profile by other users</string>
+
+    <string name="strNoChatCreated">No messages yet!</string>
+    <string name="strYouHaveNoChat">Looks like you haven\'t initiated a conversion</string>
+    <string name="strNoSearchFound">Sorry, No Search Result</string>
+    <string name="strForgetPassword">Forget Password?</string>
+    <string name="strForgetMsg">Enter your registered email below\nto recovered password reset instructions.</string>
+    <string name="lblSendYouForgetEmail">Please check your inbox and click in the recovered link to reset a password.</string>
+    <string name="strSubmit">Submit</string>
+
+    <string name="lblOr">OR</string>
+    <string name="strGoogleLogin">Sign in with Google</string>
+    <string name="lblDeleteGoogle">Delete Google Account</string>
+    <string name="strEmailFieldsRequired">Email field is required!</string>
+
+    <string name="strBlock">Block</string>
+    <string name="strUnblock">Unblock</string>
+    <string name="msgBlockSuccessfully">Block successfully.</string>
+    <string name="msgUnblockSuccessfully">Unblocked successfully.</string>
+    <string name="msgBlockForNotSend">You\'re blocked by that user, can\'t send message.</string>
+    <string name="msgUnblockToSend">Unblock %1$s to send a message</string>
+    <string name="msgNoMessage">No message!</string>
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="padding0">0dp</dimen>
+    <dimen name="padding1">1dp</dimen>
+    <dimen name="padding2">2dp</dimen>
+    <dimen name="padding3">3dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding12">12dp</dimen>
+    <dimen name="padding5">5dp</dimen>
+    <dimen name="padding7">7dp</dimen>
+    <dimen name="padding14">14dp</dimen>
+    <dimen name="padding15">15dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding18">18dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+    <dimen name="padding24">24dp</dimen>
+    <dimen name="padding26">26dp</dimen>
+    <dimen name="padding30">30dp</dimen>
+    <dimen name="padding32">32dp</dimen>
+    <dimen name="padding40">40dp</dimen>
+    <dimen name="padding45">45dp</dimen>
+    <dimen name="padding50">50dp</dimen>
+    <dimen name="padding56">56dp</dimen>
+    <dimen name="padding60">60dp</dimen>
+    <dimen name="padding68">68dp</dimen>
+    <dimen name="padding70">70dp</dimen>
+    <dimen name="padding80">80dp</dimen>
+    <dimen name="padding85">85dp</dimen>
+    <dimen name="padding90">90dp</dimen>
+    <dimen name="paddingImage">100dp</dimen>
+    <dimen name="paddingGrpImg">120dp</dimen>
+    <dimen name="paddingAudioSeek">130dp</dimen>
+    <dimen name="padding135">135dp</dimen>
+    <dimen name="padding4">4dp</dimen>
+    <dimen name="padding125">150dp</dimen>
+    <dimen name="paddingImgPath">200dp</dimen>
+    <dimen name="padding210">210dp</dimen>
+    <dimen name="padding220">220dp</dimen>
+    <dimen name="padding240">240dp</dimen>
+    <dimen name="padding250">250dp</dimen>
+    <dimen name="padding260">260dp</dimen>
+    <dimen name="padding300">300dp</dimen>
+    <dimen name="imgAttachment">26dp</dimen>
+
+    <dimen name="font_ten">10dp</dimen>
+    <dimen name="font_twelve">12dp</dimen>
+    <dimen name="font_fourteen">14dp</dimen>
+    <dimen name="font_sixteen">16dp</dimen>
+    <dimen name="font_eighteen">18dp</dimen>
+    <dimen name="font_twenty_two">22dp</dimen>
+    <dimen name="font_twenty_six">26dp</dimen>
+    <dimen name="font_thirteen">30dp</dimen>
+
+    <dimen name="expanded_toolbar_height">300dp</dimen>
+
+    <dimen name="header_view_start_margin_left">22dp</dimen>
+    <dimen name="header_view_end_margin_left">48dp</dimen>
+    <dimen name="header_view_end_margin_right">14dp</dimen>
+    <dimen name="header_view_start_margin_bottom">14dp</dimen>
+    <dimen name="header_view_start_text_size">32sp</dimen>
+    <dimen name="header_view_end_text_size">18sp</dimen>
+
+    <!-- -->
+    <dimen name="emoji_icon_size">22sp</dimen>
+</resources>

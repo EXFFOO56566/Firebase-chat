@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loadContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:padding="@dimen/padding20">
+
+    <TextView
+        android:id="@+id/percentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/padding15"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/lblZeroPercentage"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_twenty_six"
+        tools:ignore="SpUsage" />
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding5"
+        android:layout_below="@+id/percentText"
+        android:progressDrawable="@drawable/progressbar" />
+
+</RelativeLayout>

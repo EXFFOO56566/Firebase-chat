@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_layout"
+    android:layout_width="@dimen/row_gallery_width"
+    android:layout_height="@dimen/row_gallery_height">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image_view_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image_placeholder" />
+
+
+    <RelativeLayout
+        android:id="@+id/layout_video_info_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_tv"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_videocam" />
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_video_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView"
+            android:text="0:00"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+</FrameLayout>

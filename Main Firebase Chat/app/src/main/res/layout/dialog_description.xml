@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/padding10"
+    app:cardElevation="@dimen/padding10"
+    tools:ignore="SpUsage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/padding7"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding20"
+            android:paddingTop="@dimen/padding16"
+            android:paddingRight="@dimen/padding20">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/padding5"
+                android:layout_marginBottom="@dimen/padding10"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/strEnterAbout"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font_twenty_two"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/txtAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/strEnterAbout"
+                android:importantForAutofill="no"
+                android:inputType="textCapSentences"
+                android:lines="1"
+                android:maxLines="1"
+                android:textAlignment="viewStart" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding10"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding10"
+            android:paddingRight="@dimen/padding10">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCancel"
+                style="@style/DialogCancelButton"
+                android:text="@string/strCancel" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDone"
+                style="@style/DialogDoneButton"
+                android:text="@string/strDone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

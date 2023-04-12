@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemAddGroup"
+        android:icon="@drawable/ic_group_add"
+        android:title="@string/strClearMyChats"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itemGroupInfo"
+        android:title="@string/strGroupView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemBlockUnblock"
+        android:title="@string/strBlock"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemClearMyChats"
+        android:title="@string/strClearMyChats"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemEditGroup"
+        android:title="@string/strEditGroup"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemLeaveGroup"
+        android:title="@string/strLeaveGroup"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemDeleteGroup"
+        android:title="@string/strDeleteGroup"
+        app:showAsAction="never" />
+</menu>

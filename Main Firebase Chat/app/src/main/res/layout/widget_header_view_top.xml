@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytesbee.firebase.chat.activities.views.profileview.HeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_regular"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/header_view_end_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_regular"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+
+
+</com.bytesbee.firebase.chat.activities.views.profileview.HeaderView>

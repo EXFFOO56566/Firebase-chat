@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_status_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <FrameLayout
+        android:id="@+id/profile_image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.devlomi.fireapp.views.TextViewWithShapeBackground
+            android:id="@+id/tv_text_status"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_bg_status"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="5"
+            android:padding="2dp"
+            android:text="Hello World"
+            android:textColor="@color/colorWhite"
+            android:textSize="7sp"
+            android:visibility="gone" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            tools:src="@drawable/user_img_wrapped" />
+
+
+        <com.devlomi.hidely.hidelyviews.HidelyImageView
+            android:id="@+id/img_selected"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginLeft="44dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/circle_bg"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:tint="@color/colorWhite"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_check" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_status_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tap_to_add_status"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_image_container"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/profile_image_container"
+        app:layout_constraintTop_toTopOf="@+id/profile_image_container" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image_container" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_status_seen_count"
+        app:layout_constraintEnd_toStartOf="@+id/tv_status_seen_count"
+        app:layout_constraintTop_toTopOf="@+id/tv_status_seen_count"
+        app:srcCompat="@drawable/ic_remove_red_eye" />
+
+    <TextView
+        android:id="@+id/tv_status_seen_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

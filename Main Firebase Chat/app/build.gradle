@@ -1,0 +1,113 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion _compileSdkVersion
+
+    defaultConfig {
+        applicationId "com.bytesbee.firebase.chat.activities"
+        minSdkVersion _minSdkVersion
+        targetSdkVersion _targetSdkVersion
+        versionCode 5
+        versionName "2.1"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        buildConfigField 'boolean', "ADS_SHOWN", "true"//true or false
+        //Test Ads Key
+        resValue 'string', "main_app_id", "ca-app-pub-8676187581068146~3154011298"
+        resValue 'string', "banner_app_id", "ca-app-pub-3940256099942544/6300978111"
+        resValue 'string', "interstitial_app_id", "ca-app-pub-3940256099942544/1033173712"
+
+        //Maps & Places
+        resValue 'string', "key_android", "{YOUR_ANDROID_KEY}"
+        resValue 'string', "key_maps", "{YOUR_MAP_KEY}" // Here you must have to enable Billing info from Console of Google.
+
+        resValue 'string', "authority", applicationId + ".fileprovider"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.3'
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    //Firebase Libraries
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-core'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.google.firebase:firebase-messaging'
+//    implementation 'com.google.firebase:firebase-ads'
+    implementation 'com.google.android.gms:play-services-ads:21.1.0'
+    //Google Sign In
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+    //Circle ImageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //Ripple Effect
+    implementation 'com.balysv:material-ripple:1.0.2'
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'
+    //Cropper
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    //Emoji TextView
+    implementation 'com.vanniktech:emoji-ios:0.7.0'
+    // Places library
+    implementation 'com.google.android.libraries.places:places:2.4.0'
+    // PING Place Picker
+    implementation 'com.github.rtchagas:pingplacepicker:2.2.0'
+    //RecordView
+    implementation project(path:':record-view')
+    //Contacts Picker
+    implementation 'com.github.broakenmedia:MultiContactPicker:1.8.5'
+    //OnBoarding
+    implementation 'com.github.AppIntro:AppIntro:6.1.0'
+    implementation 'com.airbnb.android:lottie:4.1.0'
+    //Popup Window
+    implementation "com.github.skydoves:powermenu:2.2.0"
+    //Fast Scroller
+    implementation 'com.simplecityapps:recyclerview-fastscroll:2.0.1'
+    //Google Sign In Button
+    implementation 'com.shobhitpuri.custombuttons:google-signin:1.1.0'
+
+    implementation 'androidx.work:work-runtime:2.7.1'
+}

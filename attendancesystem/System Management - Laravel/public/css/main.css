@@ -1,0 +1,121 @@
+/*Button action*/
+.dt-button {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.buttons-html5, .buttons-print {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    box-shadow: none;
+}
+
+/*Image upload*/
+.image-preview-area {
+    display: inline-block;
+    position: relative;
+}
+
+.image-preview-area .image-preview {
+    margin-top: 10px;
+    display: inline-block;
+    width: 142px;
+    height: 140px;
+    /*background-color: #A8A8A8;*/
+    /*border: 1px solid #eee;*/
+}
+
+.image-preview-area .image-preview img {
+    /*border: 1px solid #eee;*/
+    width: 140px;
+}
+
+.image-preview-verify, .image-preview-verify img {
+    margin-top: 10px;
+    position: relative;
+}
+
+.image-preview-verify img {
+    z-index: 101;
+}
+
+.image-preview-verify img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.image-preview-area .delete-image-preview {
+    background-color: #fff;
+    line-height: 1em;
+    font-size: 1.2em;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.image-preview-area .delete-image-preview.show {
+    display: inline-block;
+}
+
+.image-preview-area .delete-image-preview i {
+    border: solid 1px #fff;
+    box-shadow: 0 0 8px #fff
+}
+
+.image-upload-label {
+    color: #d9534f;
+    display: block;
+}
+
+.reload {
+    width: 100%;
+    height: 140vw;
+    position: absolute;
+    z-index: 9999999999999;
+    background: #FFF url(https://i.pinimg.com/originals/77/0c/1e/770c1e178dc59710dc365a7ff1d8a94c.gif) no-repeat fixed center;
+    opacity: 0.9;
+}
+
+.hide {
+    display: none;
+}
+
+.dt-button.buttons-collection.buttons-page-length {
+    background: #157af6;
+    color: #fff;
+}
+
+.dt-button.button-page-length {
+    background: #157af6;
+    color: #fff;
+    margin-top: 2px;
+    border-radius: 5px !important;
+}
+
+.datepicker-dropdown {
+    z-index: 9999999999999999 !important;
+}
+
+#map-canvas {
+    width: auto;
+    height: 500px;
+}

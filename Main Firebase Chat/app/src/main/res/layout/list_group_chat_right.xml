@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/padding10"
+    android:paddingTop="@dimen/padding1"
+    android:paddingEnd="@dimen/padding10"
+    android:paddingBottom="@dimen/padding1"
+    tools:ignore="SpUsage">
+
+    <RelativeLayout
+        android:id="@+id/layoutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtOnlyDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/padding7"
+            android:background="@drawable/rounded_date"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingLeft="@dimen/padding10"
+            android:paddingRight="@dimen/padding10"
+            android:text="@string/staticDate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_ten"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/padding250"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutDate"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/padding7"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/strYou"
+            android:textSize="@dimen/font_twelve"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/widget_chat_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtName"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

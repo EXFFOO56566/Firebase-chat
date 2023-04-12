@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_item_delete"
+        android:icon="@drawable/delete_ic"
+        android:title="@string/delete"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_exit_to_app_white"
+        android:id="@+id/exit_group_item"
+        android:title="@string/exit_group"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_item_mute"
+        android:icon="@drawable/ic_volume_off"
+        android:title="@string/mute_notifications"
+        app:showAsAction="always" />
+
+
+</menu>

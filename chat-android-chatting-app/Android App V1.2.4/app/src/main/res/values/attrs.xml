@@ -1,0 +1,50 @@
+<resources>
+    <declare-styleable name="AnimButton">
+        <attr name="recording" format="reference" />
+        <attr name="typing" format="reference" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="DevlomiSeekbar">
+        <attr name="progressColor" format="color" />
+        <attr name="thumbColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWithCancelView">
+        <attr name="progressBarColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LinearLayoutWithBackgroundTint">
+        <attr name="linearBgTintColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RelativeLayoutWithBackgroundTint">
+        <attr name="relativeBgTintColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FrameLayoutWithBackgroundTint">
+        <attr name="frameBgTintColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TextViewDrawableCompat">
+        <attr name="drawableStartCompat" format="reference"/>
+        <attr name="drawableEndCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+        <attr name="drawableTintCompat" format="color"/>
+    </declare-styleable>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+
+</resources>

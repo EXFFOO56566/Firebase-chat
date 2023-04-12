@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.devlomi.record_view">
+
+    <application android:supportsRtl="true" android:theme="@style/AppTheme" />
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/collectorLinearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vp_main_layout_bg"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/audioHeadsetLayout"
+        android:layout_width="@dimen/padding50"
+        android:layout_height="@dimen/padding50"
+        android:layout_gravity="center"
+        android:background="@drawable/vp_audio_layout_bg"
+        android:gravity="center">
+
+        <com.bytesbee.firebase.chat.activities.views.audiowave.AudioWave
+            android:id="@+id/audioWave"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/padding50"
+            app:colorGradient="false"
+            app:waveColor="@color/white"
+            app:waveThickness="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/imgHeadset"
+                android:layout_width="@dimen/padding26"
+                android:layout_height="@dimen/padding26"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/vp_play_pause_bg"
+                android:clickable="true"
+                android:contentDescription="@string/cDescription"
+                android:focusable="true"
+                android:padding="@dimen/padding0"
+                app:srcCompat="@drawable/ic_small_audio" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgHeadset"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLength="8"
+                android:text="@string/staticTimeZero"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_ten"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

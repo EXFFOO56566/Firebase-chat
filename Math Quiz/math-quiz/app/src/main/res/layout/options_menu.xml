@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btnaddition"
+            android:background="@drawable/plus"
+            android:layout_alignParentLeft="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+        <ImageView
+            android:id="@+id/btnsubtraction"
+            android:background="@drawable/sub"
+            android:layout_alignParentRight="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btnmultiplication"
+            android:background="@drawable/multi"
+            android:layout_alignParentLeft="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+        <ImageView
+            android:id="@+id/btndivision"
+            android:background="@drawable/div"
+            android:layout_alignParentRight="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

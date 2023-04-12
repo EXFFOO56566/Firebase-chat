@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="SpUsage">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding80"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/padding12"
+        android:paddingEnd="@dimen/padding12">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="@dimen/padding56"
+            android:layout_height="@dimen/padding56"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/circle_my_selector"
+            android:src="@drawable/img_group_default"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="@dimen/padding1"
+            app:civ_circle_background_color="@color/deep_orange_500"
+            tools:ignore="UnusedAttribute" />
+
+        <EditText
+            android:id="@+id/txtGroupName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding10"
+            android:layout_marginRight="@dimen/padding10"
+            android:layout_weight="3"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="start"
+            android:hint="@string/strEnterGroupName"
+            android:importantForAutofill="no"
+            android:inputType="textCapWords|textAutoComplete|textAutoCorrect"
+            android:lines="1"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/padding20"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/font_fourteen" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding1"
+        android:background="@color/grey_350" />
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/recyclerView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:fastScrollPopupBgColor="@color/colorAccent"
+        app:fastScrollPopupTextColor="@android:color/primary_text_dark"
+        app:fastScrollThumbColor="@color/colorAccent" />
+
+    <RelativeLayout
+        android:id="@+id/imgNoUsers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieNoChat"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/padding210"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/empty_search" />
+
+        <TextView
+            android:id="@+id/lblGroupNotFound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lottieNoChat"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/strNoSearchFound"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_sixteen" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblGroupNotFound"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/strYouHaveNoChat"
+            android:textColor="@color/grey_600"
+            android:textSize="@dimen/font_ten"
+            android:visibility="gone" />
+        <!--        <ImageView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_centerInParent="true"-->
+        <!--            android:adjustViewBounds="true"-->
+        <!--            android:contentDescription="@string/cDescription"-->
+        <!--            android:src="@drawable/no_users" />-->
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    tools:ignore="SpUsage">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        style="@style/CardViewStyle_Chats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding5"
+        android:layout_marginTop="@dimen/padding4"
+        android:layout_marginRight="@dimen/padding5"
+        android:layout_marginBottom="@dimen/padding4"
+        app:cardBackgroundColor="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/txtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="start"
+                android:hint="@string/strSearch"
+                android:inputType="textMultiLine"
+                android:maxEms="1"
+                android:maxLines="1"
+                android:paddingStart="@dimen/padding16"
+                android:paddingTop="@dimen/padding12"
+                android:paddingEnd="@dimen/padding12"
+                android:paddingBottom="@dimen/padding10"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColorHint="#929292"
+                android:textSize="@dimen/font_sixteen" />
+
+            <com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout
+                android:id="@+id/mtrEditGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/txtSearch"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/padding5"
+                app:mrl_rippleColor="@color/grey_400"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleRoundedCorners="@dimen/padding50">
+
+                <ImageView
+                    android:id="@+id/imgClear"
+                    android:layout_width="@dimen/padding26"
+                    android:layout_height="@dimen/padding26"
+                    android:contentDescription="@string/cDescription"
+                    app:srcCompat="@drawable/ic_cancel" />
+            </com.bytesbee.firebase.chat.activities.views.MaterialRippleLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/recyclerView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_below="@id/cardView" />-->
+
+    <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cardView"
+        app:fastScrollPopupBgColor="@color/colorAccent"
+        app:fastScrollPopupTextColor="@android:color/primary_text_dark"
+        app:fastScrollThumbColor="@color/colorAccent" />
+
+    <RelativeLayout
+        android:id="@+id/imgNoUsers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cardView"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieNoChat"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/padding210"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/empty_search" />
+
+        <TextView
+            android:id="@+id/lblGroupNotFound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lottieNoChat"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/strNoSearchFound"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_sixteen" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblGroupNotFound"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/strYouHaveNoChat"
+            android:textColor="@color/grey_600"
+            android:textSize="@dimen/font_ten"
+            android:visibility="gone" />
+        <!--        <ImageView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_centerInParent="true"-->
+        <!--            android:adjustViewBounds="true"-->
+        <!--            android:contentDescription="@string/cDescription"-->
+        <!--            android:src="@drawable/no_users" />-->
+    </RelativeLayout>
+</RelativeLayout>

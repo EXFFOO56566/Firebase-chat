@@ -1,0 +1,241 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="MyTitledActivityDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!--Ripple Background START -->
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested" />
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleBackground" format="color" localization="suggested" />
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+    </declare-styleable>
+    <!--Ripple Background END -->
+
+    <style name="CardViewStyle_Chats" parent="CardView">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="cardCornerRadius">@dimen/padding20</item>
+        <item name="cardElevation">@dimen/padding4</item>
+        <item name="cardBackgroundColor">#F3F3F3</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="fontLightSettingStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/grey_700</item>
+        <item name="android:textSize">@dimen/font_sixteen</item>
+        <item name="android:layout_marginLeft">@dimen/padding3</item>
+        <item name="android:layout_marginRight">@dimen/padding16</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">viewStart</item>
+    </style>
+
+    <style name="fontRegularStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey_900</item>
+        <item name="android:textSize">@dimen/font_fourteen</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:layout_marginBottom">@dimen/padding10</item>
+        <item name="android:layout_marginLeft">@dimen/padding16</item>
+        <item name="android:layout_marginRight">@dimen/padding16</item>
+        <item name="android:layout_marginTop">@dimen/padding16</item>
+    </style>
+
+    <!-- Button For Dialog(Popup) START -->
+    <style name="DialogCancelButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/grey_500</item>
+    </style>
+
+    <style name="DialogDoneButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <!-- Button For Dialog(Popup) END -->
+
+    <style name="tabRegularFont" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="settingImage">
+        <item name="android:layout_width">@dimen/padding40</item>
+        <item name="android:layout_height">@dimen/padding40</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:tint">@color/colorAccent</item>
+    </style>
+
+    <style name="settingImageGray" parent="settingImage">
+        <item name="android:tint">@color/grey_500</item>
+        <item name="srcCompat">@drawable/ic_arrow_right</item>
+    </style>
+
+    <style name="settingLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/padding56</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/padding4</item>
+        <item name="android:paddingRight">@dimen/padding4</item>
+    </style>
+
+    <style name="settingHorizontalLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/padding1</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+        <item name="android:layout_marginRight">@dimen/padding10</item>
+        <item name="android:background">@color/grey_100</item>
+    </style>
+
+    <style name="SmallAttachmentLayout">
+        <item name="android:layout_width">@dimen/padding20</item>
+        <item name="android:layout_height">@dimen/padding20</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginEnd">@dimen/padding2</item>
+        <item name="android:visibility">visible</item>
+        <item name="tint">@color/grey_400</item>
+    </style>
+
+    <style name="AttachmentLinearLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ActualAttachmentLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding14</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="AttachmentText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:paddingTop">@dimen/padding3</item>
+        <item name="android:textSize">@dimen/font_twelve</item>
+    </style>
+
+    <!-- PickerManager START -->
+    <style name="myDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#fff</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- PickerManager END -->
+
+    <!-- Contact Picker Theme - START -->
+    <style name="MyCustomPickerTheme" parent="MultiContactPicker.Azure">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <!-- Contact Picker Theme - END -->
+
+    <!-- OnBoarding START -->
+    <style name="SliderRootLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/appintro_statusbar_height</item>
+        <item name="android:paddingStart">@dimen/padding0</item>
+        <item name="android:paddingEnd">@dimen/padding0</item>
+        <item name="android:paddingBottom">@dimen/appintro_statusbar_height</item>
+    </style>
+
+    <style name="SliderTitle">
+        <item name="android:id">@id/title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingStart">@dimen/padding30</item>
+        <item name="android:paddingEnd">@dimen/padding30</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_thirteen</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="SliderDescription">
+        <item name="android:id">@id/description</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:paddingStart">@dimen/padding30</item>
+        <item name="android:paddingEnd">@dimen/padding30</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_sixteen</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="SliderImage">
+        <item name="android:id">@id/image</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:layout_marginTop">@dimen/padding16</item>
+        <item name="android:layout_marginBottom">@dimen/padding16</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="lottie_autoPlay">true</item>
+        <item name="lottie_loop">true</item>
+    </style>
+    <!-- OnBoarding END -->
+
+    <!-- Bottom Dialog -->
+    <style name="BottomDialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomDialog.Animation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/translate_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/translate_dialog_out</item>
+    </style>
+
+</resources>

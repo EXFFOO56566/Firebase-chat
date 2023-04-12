@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="4dp"
+    android:paddingLeft="6dp">
+
+
+    <com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/received_message"
+        android:padding="6dp"
+        android:orientation="horizontal"
+        app:linearBgTintColor="@color/received_message_background_color">
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_update_wrapped"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:text="@string/unsupported_type"
+            android:textColor="@color/grey"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/ReceivedMessageTimeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="05:08" />
+    </com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+</FrameLayout>

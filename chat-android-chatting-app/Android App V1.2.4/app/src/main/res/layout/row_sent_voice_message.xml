@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/margin_top_message"
+        android:layout_marginBottom="@dimen/margin_bottom_message"
+        android:background="@drawable/sent_message"
+        android:orientation="vertical"
+        app:linearBgTintColor="@color/sent_message_background_color">
+
+        <include layout="@layout/item_reply" />
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/profile_image_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:paddingRight="4dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/voice_circle_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/user_img_wrapped"
+                    app:civ_border_color="@color/colorWhite"
+                    app:civ_border_width="1dp" />
+
+                <ImageView
+                    android:id="@+id/voice_message_stat"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginLeft="30dp"
+                    tools:src="@drawable/ic_mic_read_with_stroke" />
+
+            </FrameLayout>
+
+            <com.devlomi.fireapp.views.ProgressWithCancelView
+                android:id="@+id/progress_voice_message"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/profile_image_container"
+                android:background="@drawable/btn_play_bg"
+                android:tint="@color/colorWhite"
+                android:visibility="visible"
+                app:progressBarColor="@color/colorWhite" />
+
+            <ImageButton
+                android:id="@+id/btn_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_toRightOf="@id/profile_image_container"
+                android:background="@drawable/btn_play_bg"
+                android:padding="5dp"
+                android:tint="@color/colorWhite"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_file_upload" />
+
+
+            <ImageView
+                android:id="@+id/voice_play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_toRightOf="@id/profile_image_container"
+                android:background="@drawable/btn_play_bg"
+                android:padding="6dp"
+                android:tint="@color/colorWhite"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_play_arrow" />
+
+
+            <com.devlomi.fireapp.views.DevlomiSeekbar
+                android:id="@+id/voice_seekbar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@id/voice_play_btn"
+                android:progress="0"
+                app:progressColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/voice_seekbar"
+                android:layout_alignLeft="@id/voice_seekbar"
+                android:layout_marginTop="2dp"
+                android:text="00:00"
+                android:textColor="@color/sent_color_state"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/SentMessageTimeTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/voice_seekbar"
+                android:layout_alignRight="@id/voice_seekbar"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:text="12:20 AM" />
+
+            <ImageView
+                android:id="@+id/message_stat_img"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_below="@id/voice_seekbar"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@id/voice_seekbar"
+                app:srcCompat="@drawable/ic_check" />
+
+        </RelativeLayout>
+</FrameLayout>
+
+    </com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+</LinearLayout>
+

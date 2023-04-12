@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_bottom_message"
+    android:layout_marginTop="@dimen/margin_top_message"
+    android:orientation="vertical">
+
+
+
+    <com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/sent_message"
+        app:linearBgTintColor="@color/sent_message_background_color">
+
+
+        <include layout="@layout/item_reply" />
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_height">
+
+            <ImageView
+                android:id="@+id/thumb_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@android:color/black" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true">
+
+                <ImageButton
+                    android:id="@+id/btn_play_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_play_bg"
+                    android:padding="14dp"
+                    app:srcCompat="@drawable/ic_play_arrow" />
+
+
+                <com.devlomi.fireapp.views.ProgressWithCancelView
+                    app:progressBarColor="@color/sent_color_state"
+                    android:id="@+id/progress_bar_cancel"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_retry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/rounded_bg"
+                    android:drawableLeft="@drawable/ic_file_upload_wrapped"
+                    android:padding="3dp"
+                    android:text="Retry"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/transparent" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_video_download"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_bg"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_file_upload" />
+
+                    <TextView
+                        android:id="@+id/tv_file_size_video_download"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4MB" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_tv"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_media_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_videocam_wrapped"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="11sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="12:20 AM"
+                        android:textColor="#efebe9"
+                        android:textSize="11sp" />
+
+                    <ImageView
+
+                        android:id="@+id/message_stat_img"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+
+                        android:layout_marginRight="5dp"
+                        app:srcCompat="@drawable/ic_check" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+</LinearLayout>
+

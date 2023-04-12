@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/collectorLinearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vp_main_layout_bg"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    tools:ignore="SpUsage">
+
+    <LinearLayout
+        android:id="@+id/paddedLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding5">
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            app:srcCompat="@drawable/vp_ic_play_arrow_white" />
+
+        <ImageView
+            android:id="@+id/imgDownload"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/vp_vertical_align_bottom" />
+
+        <ProgressBar
+            android:id="@+id/pb_play"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgPause"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/vp_ic_pause_white" />
+
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/containerLinearLayout"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:gravity="center_vertical"-->
+        <!--            android:orientation="vertical">-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="@dimen/paddingAudioSeek"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingStart="@dimen/padding12"
+                android:paddingEnd="@dimen/padding7" />
+
+            <com.bytesbee.firebase.chat.activities.views.voiceplayer.PlayerVisualizerSeekbar
+                android:id="@+id/seekBarV"
+                android:layout_width="@dimen/padding135"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/padding8"
+                android:layout_marginRight="@dimen/padding8"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/seekBar"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/padding5"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="@dimen/padding1"
+                android:text="@string/strZeroTimer"
+                android:textSize="@dimen/font_ten" />
+        </RelativeLayout>
+        <!--        </LinearLayout>-->
+
+        <RelativeLayout
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:layout_marginStart="@dimen/padding3"
+            android:layout_marginEnd="@dimen/padding0">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgVoiceUser"
+                android:layout_width="@dimen/padding45"
+                android:layout_height="@dimen/padding45"
+                android:src="@drawable/profile_avatar"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/padding1" />
+
+            <ImageView
+                android:id="@+id/imgVoice"
+                android:layout_width="@dimen/padding18"
+                android:layout_height="@dimen/padding18"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@string/cDescription"
+                android:src="@drawable/ic_voice_border" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgShare"
+            android:layout_width="@dimen/padding45"
+            android:layout_height="@dimen/padding45"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/vp_play_pause_bg"
+            android:clickable="true"
+            android:contentDescription="@string/cDescription"
+            android:focusable="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:srcCompat="@drawable/vp_ic_share_white" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

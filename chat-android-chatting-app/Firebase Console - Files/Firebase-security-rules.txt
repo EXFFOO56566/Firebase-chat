@@ -1,0 +1,167 @@
+{
+    "rules": {
+        "presence":{
+          "$userId":{
+         ".read": "auth != null && !root.child('blockedUsers').child($userId).child(auth.uid).exists()",
+            ".write":"auth != null && $userId === auth.uid"
+          }
+        },
+          
+      "blockedUsers":{
+                  "$uid":{
+
+            ".read":"auth!=null",
+            ".write":"$uid === auth.uid"
+                  }
+      },
+        "messages-stat":{
+            ".read":"auth != null",
+            ".write":"auth != null"
+  
+      },
+        "typingStat":{
+          "$uid":{
+            ".read":"auth != null &&  !root.child('blockedUsers').child($uid).child(auth.uid).exists()",
+            ".write":"auth != null"
+          }
+  
+      },
+  "groupTypingStat":{
+            ".read":"auth != null",
+            ".write":"auth != null"
+  
+      },
+        "user-messages":{
+            ".read":"auth != null",
+            ".write":"auth != null"
+  
+      },
+        "users":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+  
+      },
+        
+        "groups":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+  
+      },
+         "groupsByUser":{
+           "$userId":{
+            ".read":"auth != null && $userId === auth.uid",
+          ".write":"auth != null && $userId === auth.uid"
+           }
+      },
+        
+        "groupEvents":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+            "groupMemberAddedBy":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+          "groupsMessages":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+        
+         "groupsLinks":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+        
+            "groupsDeletedUsers":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+               "groupLinkById":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+        
+                     "broadcasts":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+                         "broadcastsMessages":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+                         "broadcastsByUser":{
+            ".read":"auth != null",
+          ".write":"auth != null"
+      },
+        
+          "deleteMessageRequests":{
+        ".read":"auth != null",
+          ".write":"auth != null"
+      },
+        
+              "deleteMessageRequestsForGroup":{
+        ".read":"auth != null",
+          ".write":"auth != null"
+      },
+        
+                   "deleteMessageRequestsForBroadcast":{
+        ".read":"auth != null",
+          ".write":"auth != null"
+      },
+         
+      "uidByPhone":{
+        ".read":"auth != null",
+          ".write":false
+      },
+        "defaultUserProfilePhoto":{
+          ".read":"auth != null",
+            ".write":false
+        },
+          "defaultGroupProfilePhoto":{
+          ".read":"auth != null",
+            ".write":false
+        },
+          "adminUid":{
+          ".read":"auth != null",
+            ".write":false
+        },
+    
+    
+     "voice-messages-stat":{
+            ".read":"auth != null",
+                           ".write":"auth != null"
+      },"calls":{
+            ".read":"auth != null",
+                           ".write":"auth != null"
+      },
+         "messages":{
+            ".read":"auth != null",
+                           ".write":"auth != null"
+      },"status":{
+        "$uid":{
+            ".indexOn": "timestamp",
+            ".read":"auth != null && !root.child('blockedUsers').child($uid).child(auth.uid).exists()",
+                           ".write":"auth != null && auth.uid === $uid"
+        }
+      },"textStatus":{
+        "$uid":{
+            ".indexOn": "timestamp",
+            ".read":"auth != null && !root.child('blockedUsers').child($uid).child(auth.uid).exists()",
+                           ".write":"auth != null && auth.uid === $uid"
+        }
+      },"statusSeenUids":{
+           ".read":false,
+          ".write":"auth != null"
+      },"statusCount":{
+        "$uid":{
+          "$statusId":{
+          ".read":"auth != null && auth.uid === $uid",
+          ".write":false
+          }
+        }
+      }
+         
+    }
+    
+  
+  }

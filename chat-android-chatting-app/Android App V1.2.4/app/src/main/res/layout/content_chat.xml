@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anim="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_hd"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <TextView
+        android:id="@+id/tv_cant_send_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e1e1e1"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/you_cant_send_messages_to_group"
+        android:textColor="#565656"
+        android:visibility="gone"
+        anim:layout_constraintBottom_toBottomOf="parent"
+        anim:layout_constraintEnd_toEndOf="parent"
+        anim:layout_constraintStart_toStartOf="parent" />
+
+
+    <include
+
+        layout="@layout/item_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        anim:layout_constraintBottom_toTopOf="@id/typing_layout_container" />
+
+
+    <com.devlomi.fireapp.views.ChatRecyclerView
+        android:id="@+id/recycler_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:paddingBottom="2dp"
+        anim:layout_constraintBottom_toTopOf="@id/quoted_message_frame"
+        anim:layout_constraintLeft_toLeftOf="parent"
+        anim:layout_constraintRight_toRightOf="parent"
+        anim:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.devlomi.hidely.hidelyviews.HidelyImageButton
+        android:id="@+id/btn_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/scroll_circle_bg"
+        android:padding="8dp"
+        android:visibility="gone"
+        anim:layout_constraintBottom_toTopOf="@id/quoted_message_frame"
+        anim:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/btn_scroll_icon" />
+
+
+    <TextView
+        android:id="@+id/count_unread_badge"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/unread_count_text_bg"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/unread_count_text_color"
+        android:textSize="10sp"
+        android:visibility="gone"
+        anim:layout_constraintBottom_toTopOf="@id/quoted_message_frame"
+        anim:layout_constraintEnd_toEndOf="parent" />
+
+    <com.devlomi.fireapp.views.AttachmentView
+        android:id="@+id/attachment_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+
+        anim:layout_constraintBottom_toTopOf="@id/typing_layout_container"
+        anim:layout_constraintLeft_toLeftOf="parent"
+        anim:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/typing_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        anim:layout_constraintBottom_toBottomOf="parent"
+        anim:layout_constraintEnd_toEndOf="parent"
+        anim:layout_constraintStart_toStartOf="parent">
+
+        <include
+            layout="@layout/typing_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            anim:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/record_button" />
+
+        <com.devlomi.record_view.RecordView
+            android:id="@+id/record_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/record_button"
+            app:slide_to_cancel_arrow="@drawable/ic_keyboard_arrow_left"
+            app:slide_to_cancel_margin_right="10dp"
+            app:slide_to_cancel_text="Slide To Cancel" />
+
+        <com.devlomi.fireapp.views.AnimButton
+            android:id="@+id/record_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recv_bg_mic"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:recording="@drawable/recv_ic_mic_white"
+            app:typing="@drawable/ic_send" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

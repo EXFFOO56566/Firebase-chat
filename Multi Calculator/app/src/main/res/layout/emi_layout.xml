@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EMICalculator"
+    >
+
+    <LinearLayout
+        android:id="@+id/bottomselector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#d9a3aa">
+
+
+                    <EditText
+                        android:id="@+id/loan_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:hint="Total Loan Amount"
+                        android:inputType="number"
+                        android:textColorHint="#ffffff"
+                        android:padding="30dp"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:singleLine="true"
+                        android:windowSoftInputMode="stateHidden"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#c2818a"
+
+                    >
+
+
+                    <EditText
+                        android:id="@+id/loan_interest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColorHint="#ffffff"
+                        android:hint="Loan Interest (per annum)"
+                        android:inputType="numberDecimal"
+                        android:padding="30dp"
+                        android:textColor="@android:color/white"
+
+                        android:gravity="center"
+                        android:singleLine="true"/>
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#b4717a"
+
+                    >
+
+
+                    <EditText
+                        android:id="@+id/loan_tenure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Loan Tenure in month"
+                        android:textColorHint="#ffffff"
+                        android:inputType="number"
+                        android:layout_centerInParent="true"
+                        android:padding="30dp"
+                        android:textColor="@android:color/white"
+
+                        android:gravity="center"
+                        android:singleLine="true"/>
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#a35f68">
+
+                    <TextView
+                        android:id="@+id/lbl_emi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EMI (Monthly Payment)"
+                        android:textColor="#ffffff"
+                        android:layout_above="@+id/emi"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/emi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingLeft="8dp"
+                        android:text=""
+                        android:textColor="@color/colorAccent"
+                        android:textSize="50sp"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_calculate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#b468e4"
+
+                android:backgroundTint="#c8606e"
+                android:onClick="calculate"
+                android:text="Calculate"
+                android:textColor="@android:color/white"
+                tools:ignore="OnClick" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

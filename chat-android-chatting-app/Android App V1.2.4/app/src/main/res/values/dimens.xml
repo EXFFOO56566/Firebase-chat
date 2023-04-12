@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="img_width">250dp</dimen>
+    <dimen name="img_height">250dp</dimen>
+    <dimen name="margin_top_message">8dp</dimen>
+    <dimen name="margin_bottom_message">8dp</dimen>
+    <dimen name="row_gallery_width">130dp</dimen>
+    <dimen name="row_gallery_height">120dp</dimen>
+    <dimen name="new_message_notification_text_size">8sp</dimen>
+    <dimen name="et_message_text_size">16sp</dimen>
+    <dimen name="r_audio_width">275dp</dimen>
+    <dimen name="max_width_group_users">220dp</dimen>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/margin_top_message"
+        android:layout_marginBottom="@dimen/margin_bottom_message"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        android:background="@drawable/sent_message"
+        app:linearBgTintColor="@color/sent_message_background_color">
+
+        <include layout="@layout/item_reply" />
+
+        <RelativeLayout
+            android:id="@+id/file_root_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.devlomi.fireapp.views.ProgressWithCancelView
+                android:id="@+id/progress_bar_cancel"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_play_bg"
+                app:progressBarColor="@color/colorWhite" />
+
+
+            <ImageView
+                android:id="@+id/file_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_play_bg"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_insert_drive_file" />
+
+            <TextView
+                android:id="@+id/tv_file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/file_icon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingRight="4dp"
+                android:text="File_20323232-15951.APK"
+                android:textColor="@color/sent_color_state"
+                android:textStyle="bold" />
+
+
+            <ImageButton
+                android:id="@+id/btn_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_play_bg"
+                android:padding="8dp"
+                android:tint="#fff"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_file_upload" />
+
+
+            <TextView
+                android:id="@+id/tv_file_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_file_name"
+                android:layout_toRightOf="@id/file_icon"
+                android:text="2.3 MB"
+                android:textColor="@color/sent_color_state"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_file_extension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_file_name"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/tv_file_size"
+                android:text="JPG"
+                android:textColor="@color/sent_color_state"
+                android:textSize="12sp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_file_extension"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/SentMessageTimeTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:07 PM " />
+
+                <ImageView
+                    android:id="@+id/message_stat_img"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="4dp"
+                    app:srcCompat="@drawable/ic_check" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </com.devlomi.fireapp.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+
+
+</FrameLayout>

@@ -1,0 +1,317 @@
+<resources>
+    <string name="view_contact">View Contact</string>
+    <string name="sign_in_cancelled">Cancelled</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="unknown_sign_in_response">No Response</string>
+    <string name="Settings">Settings</string>
+    <string name="title_activity_user_details">UserDetailsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="img_transition">img_transition</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="typing">Typing...</string>
+    <string name="recording">Recording...</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_profile">Profile</string>
+
+    <string-array name="autodownload">
+        <item>Photos</item>
+        <item>Audio</item>
+        <item>Videos</item>
+        <item>Files</item>
+    </string-array>
+
+
+    <string-array name="autodownload_cellular_defaults">
+        <item>0</item>
+    </string-array>
+
+    <array name="autodownload_roaming_defaults" />
+    <string-array name="autodownload_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="autodownload_wifi_defaults">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="key_autodownload_roaming" translatable="false">key_autodownload_roaming</string>
+    <string name="key_autodownload_wifi" translatable="false">key_autodownload_wifi</string>
+    <string name="key_autodownload_cellular" translatable="false">key_autodownload_cellular</string>
+    <string name="pref_header_chat">Chat</string>
+    <string name="pref_header_about">About</string>
+    <string name="camera_tip">Tap to Take a Photo,Hold to Record Video</string>
+    <string name="audio_permission_error">Audio Permissions are Missing</string>
+    <string name="space_or_permissions_error_toast">Error :( ,Please check Space or Permissions</string>
+    <string name="voice_message_is_short_toast">Voice Message is Too Short</string>
+    <string name="file_is_too_big">file is Too BIG</string>
+    <string name="type_not_supported">type not supported!</string>
+    <string name="unblock_contact">Unblock Contact</string>
+    <string name="block_contact">Block Contact</string>
+    <string name="unmute_notifications">UnMute Notifications</string>
+    <string name="mute_notifications">Mute Notifications</string>
+    <string name="loading">Loading..</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="copied_to_clipboard">Copied To Clipboard...</string>
+    <string name="image_video_not_found">CHOSEN IMAGE/Video Not Found</string>
+    <string name="sending_messages">Sending Messages...</string>
+    <string name="message_is_too_long">Message is Too long please try to reduce it</string>
+    <string name="error_playing_this">Error playing this :(</string>
+    <string name="cannot_open_this_file">cannot open this file</string>
+    <string name="checking">Checking..</string>
+    <string name="does_not_have_fireapp">does not have %s</string>
+    <string name="user_is_blocked">User is Blocked</string>
+    <string name="unblock">UnBlock</string>
+    <string name="cancel">CANCEL</string>
+    <string name="not_contact_selected">No Contact Selected</string>
+    <string name="missing_permissions">Missing Permissions</string>
+    <string name="ok">OK</string>
+    <string name="no_close_the_app">NO Close The App</string>
+    <string name="you_have_to_grant_permissions">You have to grant permissions in order to use this App</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="delete_conversation_confirmation">Are you sure you want to delete this conversation?</string>
+
+    <string name="yes">YES</string>
+    <string name="select_contact">Select Contact</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="image_changed">Image has been changed</string>
+    <string name="username_is_empty">user name cannot be empty</string>
+    <string name="default_status">Heeey I am using %s!</string>
+    <string name="reply">Reply</string>
+    <string name="choose_number">Choose a Number</string>
+    <string name="delete_messages_confirmation">Delete Message?</string>
+    <string name="you">You</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_status">Enter your status</string>
+    <string name="status_is_empty">Status is Empty</string>
+    <string name="no_media_summary">no media</string>
+    <string name="photos">Photos</string>
+
+    <string name="videos">Videos</string>
+    <string name="files">Files</string>
+    <string name="no">NO</string>
+    <string name="file">File</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="audio">Audio</string>
+    <string name="location">Location</string>
+    <string name="contact">Contact</string>
+    <string name="media">Media</string>
+    <string name="count">Count</string>
+    <string name="about_and_phone_number">About and phone number</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="forward">Forward</string>
+    <string name="share">Share</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="edit">Edit</string>
+    <string name="checking_contact">Checking Contact</string>
+    <string name="online">Online</string>
+    <string name="could_not_get_audio_file">could not get audio file</string>
+    <string name="could_not_get_this_image">Could not get this image</string>
+    <string name="delete_media_from_phone">Delete Media From Phone</string>
+    <string name="media_player_error">file not found or permissions missing</string>
+    <string name="select_numbers">Select Numbers</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="not_found">Not found</string>
+    <string name="enter_is_sent_smmary">Enter is Send</string>
+    <string name="enter_is_send_title">Enter key will send your message</string>
+    <string name="mobile_data_title">when using mobile data</string>
+    <string name="roaming_title">when roaming</string>
+    <string name="wifi_title">when using Wifi</string>
+    <string name="media_auto_download_title">Media auto download</string>
+    <string name="could_not_get_this_file">could not get this file</string>
+    <string name="send_to_toolbar_title">Send To ..</string>
+    <string name="item_deleted_from_storage">this item was deleted from your storage</string>
+    <string name="app_info">%s is a Chat App that that connects people with each other with a simple and great UI</string>
+    <string name="feedback">Feedback</string>
+    <string name="choose_email_app">Choose Email App</string>
+    <string name="error">error</string>
+    <string name="new_group">New Group</string>
+    <string name="add_participants">Add Participants</string>
+    <string name="max_number_of_users_reached">Max Number of users reached</string>
+    <string name="group_title">Group Title</string>
+    <string name="set_title_for_group">Set a title for Group</string>
+    <string name="group_hint">Group name</string>
+    <string name="exit_group">Exit group</string>
+    <string name="participants">Participants</string>
+    <string name="delete_member">Delete Member</string>
+    <string name="delete_member_message">are you sure you want to delete this member?</string>
+    <string name="removing_member">Removing member...</string>
+    <string name="member_removed">Member removed</string>
+    <string name="error_removing_member">error removing member</string>
+    <string name="user_already_added_to_group">user already added to group</string>
+    <string name="adding">Adding...</string>
+    <string name="added_successfully">added successfully</string>
+    <string name="group_name_changed">group name changed</string>
+    <string name="exiting_group">Exiting group...</string>
+    <string name="you_cant_send_messages_to_group">You cant\'t send message to this group because you are no longer a participant</string>
+    <string name="no_longer_participant">You are no longer a participant in this group</string>
+    <string name="delete_group">Delete group</string>
+    <string name="created_this_group">created this group</string>
+    <string name="removed">Removed</string>
+    <string name="is_now_an_admin">is now an Admin</string>
+    <string name="exit_the_group">Exit the group</string>
+    <string name="added">Added</string>
+    <string name="group_info">Group info</string>
+    <string name="are_now_an_admin">are now an Admin</string>
+    <string name="at">at</string>
+    <string name="created_by">Created by</string>
+    <string name="you_deleted_this_message">You deleted this message</string>
+    <string name="this_message_was_deleted">This message was deleted</string>
+    <string name="delete_for_me">DELETE FOR ME</string>
+    <string name="delete_for_everyone">DELETE FOR EVERYONE</string>
+    <string name="message_member">Message</string>
+    <string name="make_group_admin">Make group admin</string>
+    <string name="dismiss_admin">Dismiss admin</string>
+
+    <string name="remove_member">Remove</string>
+    <string name="only_admins_can_post">Only admins can post</string>
+    <string name="are_no_longer_an_admin">are no longer an admin</string>
+    <string name="is_no_longer_an_admin">is no longer an admin</string>
+    <string name="you_added">You added</string>
+    <string name="you_left">You Left</string>
+    <string name="left_group">Left group</string>
+    <string name="you_removed">You removed</string>
+    <string name="you_created_this_group">You created this group</string>
+    <string name="you_changed_group_preferences">You changed group preferences</string>
+    <string name="changed_group_preferences">changed group preferences</string>
+    <string name="this_user_has_old_version">This user has old version of this app</string>
+    <string name="exit_group_confirmation_dialog">are you sure you want to exit this group?</string>
+    <string name="delete_group_confirmation">are you sure you want to delete this chat</string>
+    <string name="playing_audio">Playing Audio</string>
+    <string name="chats">Chats</string>
+    <string name="status">Status</string>
+    <string name="calls">Calls</string>
+
+
+    <string name="recent_updates">Recent Updates</string>
+    <string name="my_status">My Status</string>
+    <string name="tap_to_add_status">Tap to add status update</string>
+
+    <string name="title_activity_view_status">ViewStatusActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_my_status">My Status</string>
+    <string name="your_status_will_disappear_note">Your status updates will disappear after 24 hours.</string>
+    <string name="deleting">Deleting...</string>
+    <string name="delete_status_confirmation">are you sure you want to delete this status?</string>
+    <string name="uploading_status">Uploading status...</string>
+    <string name="voice_call_hint">Voice Call</string>
+    <string name="video_call_hint">Video Call</string>
+    <string name="connecting">Connecting</string>
+    <string name="fireapp_video_call">%s Video Call</string>
+    <string name="fireapp_voice_call">%s Voice Call</string>
+    <string name="call_ended">Call ended</string>
+    <string name="call_denied">Denied</string>
+    <string name="call_failure">Failed to connect</string>
+    <string name="call_cancelled">Cancelled</string>
+    <string name="user_hungup">User Hung up</string>
+    <string name="call_no_answer">No answer</string>
+    <string name="voice_call_confirmation">Are you sure want to make a voice call?</string>
+    <string name="video_call_confirmation">are you sure you want to make a video call?</string>
+    <string name="error_calling">Error performing call</string>
+    <string name="missed_call_notification">Missed call from:</string>
+    <string name="answer">ANSWER</string>
+    <string name="decline">DECLINE</string>
+    <string name="incoming_video_call">Incoming Video Call</string>
+    <string name="incoming_voice_call">Incoming Voice Call</string>
+    <string name="hangup">HANGUP</string>
+    <string name="video_call">Video Call</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="delete_calls_confirmation">Delete Selected Calls?</string>
+    <string name="viewed_statuses">Viewed updates</string>
+    <string name="video_length_is_too_long">Video length is too long</string>
+    <string name="there_is_active_call_currently">There is already an active call</string>
+    <string name="status_uploaded">Status uploaded Successfully</string>
+    <string name="error_uploading_status">Error uploading status</string>
+    <string name="invite">Invite</string>
+    <string name="share_app_text">Download now %s App for Instant messaging,groups support,Video Calls, and more. </string>
+    <string name="no_contacts">No %s Contacts</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="yesterday_at">Yesterday at</string>
+    <string name="today_at">Today at</string>
+    <string name="days_ago">days ago</string>
+    <string name="just_now">Just now</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="now">now</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="clear_chat_message">are you sure you want to delete all messages in this chat?</string>
+    <string name="chat_settings">Chat settings</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="failed_to_load_wallpaper">Failed to load Wallpaper</string>
+    <string name="mark_as_read">mark as read</string>
+    <string name="choose_wallpaper">Choose Wallpaper</string>
+    <string name="restore_default_wallpaper">Restore Default Wallpaper</string>
+    <string name="unsupported_type">Unsupported type, please update the app</string>
+    <string name="write_your_message">Write your message</string>
+    <string name="profile_translation_name" translatable="false">profile_translation_name</string>
+    <string name="chat_backup">Chat backup</string>
+    <string name="title_activity_backup_chat">BackupChatActivity</string>
+    <string name="last_backup">Last Backup</string>
+    <string name="backup">BACK UP</string>
+    <string name="backing_up">Backing up ...</string>
+    <string name="backing_up_message">Backing up message, please don\'t exit the app</string>
+    <string name="backup_success">Backup success</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restore_backup">Restore backup</string>
+    <string name="error_restoring_backup">Error restoring backup</string>
+    <string name="backup_file_mismatched">Backup file does not match your phone number!</string>
+    <string name="invalid_group_link">invalid group link</string>
+    <string name="share_invite_link">Share Invite link</string>
+    <string name="share_link_notice">anyone has this link can join this group</string>
+    <string name="send_link_via_fireapp">Send Link via %s</string>
+    <string name="copy_link">Copy link</string>
+    <string name="share_link">Share link</string>
+    <string name="revoke_link">Revoke link</string>
+    <string name="fetching_group">Fetching Group...</string>
+    <string name="join_group">Join group</string>
+    <string name="you_are_already_joined_the_group">You already joined the group!</string>
+    <string name="banned_from_group">You are banned from this group</string>
+    <string name="joined_via_invite_link">joined via invite link</string>
+    <string name="new_broadcast">New broadcast</string>
+    <string name="broadcast_name">Broadcast name</string>
+    <string name="broadcast_list_info">Broadcast list info</string>
+    <string name="created">Created</string>
+    <string name="recipients">recipients</string>
+    <string name="edit_recipients">Edit recipients</string>
+    <string name="delete_broadcast_list">Delete broadcast list</string>
+    <string name="add_recipients">Add recipients</string>
+    <string name="user_already_added_to_broadcast">user already added to broadcast</string>
+    <string name="delete_broadcast_confirmation">Delete this broadcast?</string>
+    <string name="no_link_gnerated">No link generated</string>
+    <string name="select_this_location">Select this Location</string>
+    <string name="nearby_places">Nearby Places</string>
+    <string name="user_this_location">Use this location?</string>
+    <string name="change_location">Change location</string>
+    <string name="select">Select</string>
+    <string name="message">Message</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="add">ADD</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="voice_message">Voice Message</string>
+    <string name="do_not_show_again">Do not show this message again</string>
+    <string name="ignore_battery_dialog_title">Ignore Battery Optimization</string>
+    <string name="ignore_battery_dialog_message">In order to make sure that all messages delivered correctly you have to disable Battery Optimization.\n after clicking OK , choose %s and click on \'Don\'t optimize\'</string>
+    <string name="ignore_battery_summary">In order to make sure that all messages delivered correctly you have to disable Battery Optimizations</string>
+    <string name="status_hint">Type a status</string>
+    <string name="call_type">%s Call</string>
+
+
+</resources>

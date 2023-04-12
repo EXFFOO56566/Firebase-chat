@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpUsage">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_below="@+id/appLayout"
+        android:background="@color/grey_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nested_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:scrollingCache="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/fontRegularStyle"
+                        android:text="@string/profile_setting"
+                        android:textColor="@color/grey_500" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:cardCornerRadius="@dimen/padding0"
+                        app:cardElevation="@dimen/padding2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/layoutNotification"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_notifications"
+                                    app:tint="@color/green_a_700" />
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:layout_marginEnd="@dimen/padding3"
+                                    android:text="@string/notification" />
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/notificationOnOff"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/padding10"
+                                    android:checked="true"
+                                    app:thumbTint="@color/switch_color_primary" />
+
+                            </LinearLayout>
+
+                            <View style="@style/settingHorizontalLine" />
+
+                            <LinearLayout
+                                android:id="@+id/layoutRTL"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_language"
+                                    app:tint="@color/blue_a_200" />
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:layout_marginEnd="@dimen/padding3"
+                                    android:text="@string/rtl" />
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/rtlOnOff"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/padding10"
+                                    android:checked="false"
+                                    app:thumbTint="@color/switch_color_primary" />
+
+                            </LinearLayout>
+
+                            <View style="@style/settingHorizontalLine" />
+
+                            <LinearLayout
+                                android:id="@+id/layoutPrivacySettings"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_privacy_settings"
+                                    app:tint="@color/yellow_800"/>
+
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:text="@string/strPrivacySetting" />
+
+                                <ImageButton
+                                    style="@style/settingImageGray"
+                                    android:contentDescription="@string/cDescription" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        style="@style/fontRegularStyle"
+                        android:text="@string/general_setting"
+                        android:textColor="@color/grey_500" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:cardCornerRadius="@dimen/padding0"
+                        app:cardElevation="@dimen/padding2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/layoutTakeTour"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_take_tour"
+                                    app:tint="@color/cyan_a_400" />
+
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:text="@string/strTakeTour" />
+
+                                <ImageButton
+                                    style="@style/settingImageGray"
+                                    android:contentDescription="@string/cDescription" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/layoutRateApp"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_favorite"
+                                    app:tint="@color/red_500" />
+
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:text="@string/strRateApp" />
+
+                                <ImageButton
+                                    style="@style/settingImageGray"
+                                    android:contentDescription="@string/cDescription" />
+
+                            </LinearLayout>
+
+                            <View style="@style/settingHorizontalLine" />
+
+                            <LinearLayout
+                                android:id="@+id/layoutShare"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_share"
+                                    app:tint="@color/blue_500" />
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:text="@string/strShareApp" />
+
+                                <ImageButton
+                                    style="@style/settingImageGray"
+                                    android:contentDescription="@string/cDescription" />
+
+                            </LinearLayout>
+
+                            <View style="@style/settingHorizontalLine" />
+
+                            <LinearLayout
+                                android:id="@+id/layoutAbout"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_about"
+                                    app:tint="@color/green_600" />
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:text="@string/strAboutUs" />
+
+                                <ImageButton
+                                    style="@style/settingImageGray"
+                                    android:contentDescription="@string/cDescription" />
+
+                            </LinearLayout>
+
+                            <View style="@style/settingHorizontalLine" />
+
+                            <LinearLayout
+                                android:id="@+id/layoutPrivacyPolicy"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_language"
+                                    app:tint="@color/orange_600" />
+
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:text="@string/strPrivacy" />
+
+
+                                <ImageButton
+                                    style="@style/settingImageGray"
+                                    android:contentDescription="@string/cDescription" />
+
+                            </LinearLayout>
+
+                            <View style="@style/settingHorizontalLine" />
+
+                            <LinearLayout
+                                android:id="@+id/layoutLogout"
+                                style="@style/settingLayout">
+
+                                <ImageButton
+                                    style="@style/settingImage"
+                                    android:contentDescription="@string/cDescription"
+                                    app:srcCompat="@drawable/ic_set_exit_to_app"
+                                    app:tint="@color/red_600" />
+
+                                <TextView
+                                    style="@style/fontLightSettingStyle"
+                                    android:text="@string/strLogout" />
+
+                                <ImageButton
+                                    style="@style/settingImageGray"
+                                    android:contentDescription="@string/cDescription" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/padding10"
+                        android:text="@string/app_company"
+                        android:textSize="@dimen/font_twelve" />
+
+                    <TextView
+                        android:id="@+id/txtAppVersion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/padding10"
+                        android:text="@string/settingVersion"
+                        android:textSize="@dimen/font_twelve" />
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_app_id" />
+</RelativeLayout>

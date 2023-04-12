@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/margin_top_message"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="@dimen/margin_bottom_message"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/sent_message_background_color">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/item_reply" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_contact_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_contact"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="4dp"
+                            android:paddingLeft="3dp"
+                            android:src="@drawable/user_img_wrapped" />
+
+
+                        <TextView
+                            android:layout_marginLeft="8dp"
+                            android:id="@+id/tv_contact_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/img_contact"
+                            android:text="John Doe"
+                            android:textColor="@color/sent_color_state"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/message_stat_img"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_below="@id/tv_contact_name"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="22dp"
+                            android:layout_marginRight="8dp"
+                            android:text="3:43 PM"
+                            app:srcCompat="@drawable/ic_check" />
+
+                        <TextView
+                            android:id="@+id/tv_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_contact_name"
+                            android:layout_marginTop="22dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_toLeftOf="@id/message_stat_img"
+                            android:text="3:43 PM"
+
+                            android:textColor="@color/contact_title_color"
+                            android:textSize="10sp" />
+
+
+                        <View
+                            android:id="@+id/hseperator_contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@id/img_contact"
+                            android:background="#e1e1e1" />
+
+
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/btn_message_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_contact_info"
+                        android:layout_marginRight="4dp"
+                        android:background="@null"
+                        android:text="@string/message"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</FrameLayout>

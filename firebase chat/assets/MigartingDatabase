@@ -1,0 +1,27 @@
+Try to recover the database via the link provided in parameter
+
+If the database does not exist, the method will execute the code provided in the onCreate parameter
+
+If the database exists, the method will check the version of the database and compare it with the version number provided as a parameter.
+
+If the version of the database does not correspond to the version supplied as a parameter, the method will then execute the code of the onUpgrade parameters.
+
+step 1
+ - Maintain the text files for the queries you use for database, fileNaming convention can be something like this
+    eg. from${oldVersionNumber}to${newVersionNumber}
+ Note:- for the initial version you don't need create a file.
+
+Step 2
+ - Initial version to create a database
+
+    /// It is used to get the current version number
+        List<String> files = []; // initially it will be 0
+     String query1 = "CREATE TABLE Company (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT)";
+     var db = await openDatabase(
+          path,
+          version: files.length + 1, // 0 + 1 = 1
+          onCreate: (db, version) async {
+            await db.execute(query1);
+            log('Table created');
+          },
+        );
